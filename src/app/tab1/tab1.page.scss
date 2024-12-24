@@ -1,0 +1,87 @@
+.hero-container {
+    background-image: url('https://picsum.photos/id/307/1200/800');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+  
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  
+    .travel-quote {
+      font-style: italic;
+      max-width: 80%;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+  }
+  
+  .weather-card {
+    margin-top: -50px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    ion-card-title {
+      font-size: 1.2rem;
+    }
+  
+    .weather-info {
+      display: flex;
+      align-items: center;
+  
+      .weather-icon {
+        font-size: 3rem;
+        margin-right: 20px;
+      }
+  
+      .weather-details {
+        h2 {
+          font-size: 2rem;
+          margin: 0;
+        }
+  
+        p {
+          margin: 0;
+          color: var(--ion-color-medium);
+        }
+      }
+    }
+  }
+  
+  .destination-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+  
+    h3 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #ffffff;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  
+  

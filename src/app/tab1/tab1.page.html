@@ -1,17 +1,40 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="hero-container">
+    <h1>Discover the World</h1>
+    <p class="travel-quote">{{ travelQuote }}</p>
+  </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card class="weather-card">
+    <ion-card-header>
+      <ion-card-title>Current Weather</ion-card-title>
+      <ion-card-subtitle>{{ weatherInfo.location }}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="weather-info">
+        <ion-icon [name]="weatherInfo.icon" class="weather-icon"></ion-icon>
+        <div class="weather-details">
+          <h2>{{ weatherInfo.temperature }}°C</h2>
+          <p>{{ weatherInfo.condition }}</p>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Popular Attractions</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6" size-md="3" *ngFor="let destination of popularDestinations">
+            <div class="destination-card">
+              <img [src]="destination.image" [alt]="destination.name">
+              <h3>{{ destination.name }}</h3>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
