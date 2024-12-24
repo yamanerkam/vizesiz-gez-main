@@ -1,16 +1,40 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Your Favorite Countries
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Your list</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+  <ng-container *ngIf="favoriteCountries$ | async as favoriteCountries">
+    <ion-list *ngIf="favoriteCountries.length > 0; else noFavorites">
+      <ion-item *ngFor="let country of favoriteCountries" class="country-card">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>{{ country.countryName }}</ion-card-title>
+            <ion-card-subtitle>{{ country.visaType }}</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <p><strong>Max Stay:</strong> {{ country.maxStay }}</p>
+            <p><strong>Notes:</strong> {{ country.notes }}</p>
+          </ion-card-content>
+        </ion-card>
+        <ion-button 
+          fill="clear" 
+          slot="end" 
+          (click)="toggleFavorite(country)"
+          color="danger"
+        >
+          <ion-icon name="heart" slot="icon-only"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ion-list>
+    <ng-template #noFavorites>
+      <div class="ion-text-center ion-padding">
+        <p>You haven't added any countries to your favorites yet.</p>
+        <ion-button (click)="goToCountriesList()">Go to Countries List</ion-button>
+      </div>
+    </ng-template>
+  </ng-container>
 </ion-content>
