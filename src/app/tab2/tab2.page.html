@@ -8,7 +8,7 @@
 
 <ion-content [fullscreen]="true">
   <ion-list>
-    <ion-item *ngFor="let country of countries" class="country-card">
+    <ion-item *ngFor="let country of countries" class="country-card" (click)="openCountryModal(country)">
       <ion-card>
         <ion-card-header>
           <ion-card-title>{{ country.countryName }}</ion-card-title>
@@ -22,7 +22,7 @@
       <ion-button 
         fill="clear" 
         slot="end" 
-        (click)="toggleFavorite(country)"
+        (click)="toggleFavorite(country); $event.stopPropagation()"
         [color]="isFavorite(country.countryName) ? 'danger' : 'medium'"
       >
         <ion-icon name="heart" slot="icon-only"></ion-icon>
