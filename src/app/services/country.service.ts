@@ -16,347 +16,347 @@ export class CountryService {
   private countriesData: Country[] = [
     {
         "id": 1,
-        "countryName": "Albania",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "90 days within a 180-day period."
-      },
-      {
+        "countryName": "Arnavutluk",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "180 günlük süre içinde 90 gün kalış."
+    },
+    {
         "id": 2,
-        "countryName": "Azerbaijan",
-        "visaType": "eVisa or Visa on Arrival",
-        "maxStay": "30 days",
-        "notes": "Turkish citizens can apply online for an ASAN eVisa or obtain a visa on arrival at certain entry points."
-      },
-      {
+        "countryName": "Azerbaycan",
+        "visaType": "e-Vize veya Vizesiz",
+        "maxStay": "30 gün",
+        "notes": "Türk vatandaşları ASAN e-Vize başvurusu yapabilir veya belirli giriş noktalarında vize alabilir."
+    },
+    {
         "id": 3,
-        "countryName": "Bahamas",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "May require proof of onward/return ticket and sufficient funds."
-      },
-      {
+        "countryName": "Bahamalar",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "Dönüş bileti ve yeterli maddi kaynak kanıtı gerekebilir."
+    },
+    {
         "id": 4,
         "countryName": "Barbados",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "Immigration officers may require proof of accommodation and sufficient funds."
-      },
-      {
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "Göçmenlik memurları konaklama kanıtı ve yeterli maddi kaynak talep edebilir."
+    },
+    {
         "id": 5,
         "countryName": "Belarus",
-        "visaType": "Visa Not Required (with conditions)",
-        "maxStay": "30 days",
-        "notes": "Visa-free entry typically via Minsk National Airport only, with certain conditions (e.g., proof of travel insurance). Check official sources."
-      },
-      {
+        "visaType": "Vize Gerekmiyor (şartlı)",
+        "maxStay": "30 gün",
+        "notes": "Vizesiz giriş genellikle sadece Minsk Ulusal Havalimanı üzerinden, belirli şartlarla (örn. seyahat sigortası kanıtı). Resmi kaynaklara danışın."
+    },
+    {
         "id": 6,
-        "countryName": "Bosnia and Herzegovina",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "Stay of 90 days within a 180-day period."
-      },
-      {
+        "countryName": "Bosna Hersek",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "180 günlük süre içinde 90 gün kalış."
+    },
+    {
         "id": 7,
-        "countryName": "Brazil",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "Possible to extend once for an additional 90 days (total 180 days/year)."
-      },
-      {
+        "countryName": "Brezilya",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "Bir kez 90 gün daha uzatılabilir (yılda toplam 180 gün)."
+    },
+    {
         "id": 8,
-        "countryName": "Chile",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "Passport validity of 6 months is recommended."
-      },
-      {
+        "countryName": "Şili",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "6 aylık pasaport geçerliliği önerilir."
+    },
+    {
         "id": 9,
-        "countryName": "Colombia",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "Can be extended for a total of 180 days per calendar year."
-      },
-      {
+        "countryName": "Kolombiya",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "Takvim yılı başına toplam 180 güne kadar uzatılabilir."
+    },
+    {
         "id": 10,
-        "countryName": "Ecuador",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "Stay can sometimes be extended; check with local immigration for details."
-      },
-      {
+        "countryName": "Ekvador",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "Kalış süresi bazen uzatılabilir; yerel göçmenlik ofisiyle görüşün."
+    },
+    {
         "id": 11,
         "countryName": "El Salvador",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "Part of the CA-4 Agreement (Guatemala, Honduras, Nicaragua, El Salvador). Stay counts collectively across these countries."
-      },
-      {
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "CA-4 Anlaşması'nın parçası (Guatemala, Honduras, Nikaragua, El Salvador). Kalış süreleri bu ülkeler arasında toplu olarak sayılır."
+    },
+    {
         "id": 12,
-        "countryName": "Georgia",
-        "visaType": "Visa Not Required",
-        "maxStay": "1 year",
-        "notes": "One of the most generous visa-free stays for Turkish citizens."
-      },
-      {
+        "countryName": "Gürcistan",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "1 yıl",
+        "notes": "Türk vatandaşları için en cömert vizesiz kalış sürelerinden biri."
+    },
+    {
         "id": 13,
         "countryName": "Honduras",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "Part of the CA-4 Agreement; time spent in Guatemala, El Salvador, and Nicaragua counts toward the total."
-      },
-      {
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "CA-4 Anlaşması'nın parçası; Guatemala, El Salvador ve Nikaragua'da geçirilen süreler toplama dahildir."
+    },
+    {
         "id": 14,
-        "countryName": "Hong Kong (SAR China)",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "Might need proof of onward ticket; different from Mainland China, which requires a visa."
-      },
-      {
+        "countryName": "Hong Kong (Çin SAR)",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "Dönüş bileti kanıtı gerekebilir; Çin anakarasından farklı olarak vize gerektirmez."
+    },
+    {
         "id": 15,
-        "countryName": "Iran",
-        "visaType": "Visa on Arrival or eVisa",
-        "maxStay": "30 days",
-        "notes": "Available at major airports. Extension possible for tourist stays."
-      },
-      {
+        "countryName": "İran",
+        "visaType": "Varışta Vize veya e-Vize",
+        "maxStay": "30 gün",
+        "notes": "Büyük havalimanlarında mevcut. Turist kalışları için uzatma mümkün."
+    },
+    {
         "id": 16,
-        "countryName": "Iraq (Some Regions)",
-        "visaType": "Visa on Arrival in KRI (Kurdistan Region)",
-        "maxStay": "30 days",
-        "notes": "VoA typically granted only for Iraqi Kurdistan Region. For other regions of Iraq, a visa may be required beforehand."
-      },
-      {
+        "countryName": "Irak (Bazı Bölgeler)",
+        "visaType": "IKBY'de Varışta Vize (Kürdistan Bölgesi)",
+        "maxStay": "30 gün",
+        "notes": "Varışta vize genellikle sadece Irak Kürdistan Bölgesi'nde verilir. Irak'ın diğer bölgeleri için önceden vize gerekebilir."
+    },
+    {
         "id": 17,
-        "countryName": "Japan",
-        "visaType": "Visa Not Required (may vary)",
-        "maxStay": "Up to 90 days",
-        "notes": "Historically visa-free for Turkish citizens on short visits, but Japan introduced eVisa for some passports. Check most recent regulations."
-      },
-      {
+        "countryName": "Japonya",
+        "visaType": "Vize Gerekmiyor (değişebilir)",
+        "maxStay": "90 güne kadar",
+        "notes": "Türk vatandaşları için kısa ziyaretlerde geleneksel olarak vizesiz, ancak Japonya bazı pasaportlar için e-Vize uygulaması başlattı. En güncel düzenlemeleri kontrol edin."
+    },
+    {
         "id": 18,
-        "countryName": "Jordan",
-        "visaType": "Visa on Arrival",
-        "maxStay": "30 days",
-        "notes": "Fee required on arrival. Jordan Pass can waive the visa fee if purchased online before travel."
-      },
-      {
+        "countryName": "Ürdün",
+        "visaType": "Varışta Vize",
+        "maxStay": "30 gün",
+        "notes": "Varışta ücret gerekli. Seyahat öncesi online Jordan Pass alınırsa vize ücreti muaf tutulabilir."
+    },
+    {
         "id": 19,
-        "countryName": "Kazakhstan",
-        "visaType": "Visa Not Required",
-        "maxStay": "30 days",
-        "notes": "Must have proof of onward travel and sufficient funds."
-      },
-      {
+        "countryName": "Kazakistan",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "30 gün",
+        "notes": "İleri seyahat kanıtı ve yeterli maddi kaynak gerekli."
+    },
+    {
         "id": 20,
-        "countryName": "Kosovo",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "Stay of 90 days within a 180-day period."
-      },
-      {
+        "countryName": "Kosova",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "180 günlük süre içinde 90 gün kalış."
+    },
+    {
         "id": 21,
-        "countryName": "Lebanon",
-        "visaType": "Visa on Arrival",
-        "maxStay": "90 days",
-        "notes": "Free VoA for Turkish citizens at Beirut Airport, subject to conditions (e.g., no Israeli entry stamp)."
-      },
-      {
+        "countryName": "Lübnan",
+        "visaType": "Varışta Vize",
+        "maxStay": "90 gün",
+        "notes": "Beyrut Havalimanı'nda Türk vatandaşlarına ücretsiz vize (İsrail giriş damgası olmaması şartıyla)."
+    },
+    {
         "id": 22,
-        "countryName": "Macau (SAR China)",
-        "visaType": "Visa on Arrival",
-        "maxStay": "30 days",
-        "notes": "Check with local authorities or your airline for the latest rules."
-      },
-      {
+        "countryName": "Makao (Çin SAR)",
+        "visaType": "Varışta Vize",
+        "maxStay": "30 gün",
+        "notes": "Güncel kurallar için yerel yetkililer veya havayolunuza danışın."
+    },
+    {
         "id": 23,
-        "countryName": "Malaysia",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "No visa needed for stays up to 90 days."
-      },
-      {
+        "countryName": "Malezya",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "90 güne kadar olan kalışlarda vize gerekmiyor."
+    },
+    {
         "id": 24,
-        "countryName": "Maldives",
-        "visaType": "Visa on Arrival",
-        "maxStay": "30 days",
-        "notes": "Must have a confirmed hotel booking and sufficient funds."
-      },
-      {
+        "countryName": "Maldivler",
+        "visaType": "Varışta Vize",
+        "maxStay": "30 gün",
+        "notes": "Onaylı otel rezervasyonu ve yeterli maddi kaynak gerekli."
+    },
+    {
         "id": 25,
         "countryName": "Moldova",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
-        "notes": "90 days within any 180-day period."
-      },
-      {
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
+        "notes": "180 günlük süre içinde 90 gün kalış."
+    },
+    {
         "id": 26,
         "countryName": "Mongolia",
-        "visaType": "Visa Not Required",
-        "maxStay": "30 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "30 gün",
         "notes": "Stays longer than 30 days require registration with immigration."
-      },
-      {
+    },
+    {
         "id": 27,
         "countryName": "Montenegro",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
         "notes": "Stay of 90 days within a 6-month period."
-      },
-      {
+    },
+    {
         "id": 28,
         "countryName": "Morocco",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
         "notes": "Passport must be valid for at least 6 months on arrival."
-      },
-      {
+    },
+    {
         "id": 29,
         "countryName": "Nepal",
-        "visaType": "Visa on Arrival",
+        "visaType": "Vize on Arrival",
         "maxStay": "15/30/90 days (depending on fee)",
         "notes": "Visa fees vary based on desired length of stay."
-      },
-      {
+    },
+    {
         "id": 30,
         "countryName": "Nicaragua",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
         "notes": "Part of the CA-4 region. Time in Guatemala, El Salvador, and Honduras is combined."
-      },
-      {
+    },
+    {
         "id": 31,
         "countryName": "North Macedonia",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
         "notes": "90 days within a 180-day period."
-      },
-      {
+    },
+    {
         "id": 32,
         "countryName": "Northern Cyprus (TRNC)",
-        "visaType": "Visa Not Required",
+        "visaType": "Vize Gerekmiyor",
         "maxStay": "No set limit",
         "notes": "Recognized only by Türkiye. Turkish citizens have unrestricted access; international flights must connect via Türkiye."
-      },
-      {
+    },
+    {
         "id": 33,
         "countryName": "Oman",
-        "visaType": "Visa on Arrival or eVisa",
-        "maxStay": "10 days (VoA) / 30 days (eVisa)",
+        "visaType": "Vize on Arrival veya e-Vize",
+        "maxStay": "10 gün (VoA) / 30 gün (e-Vize)",
         "notes": "Check current rules, as Oman frequently updates eVisa policy."
-      },
-      {
+    },
+    {
         "id": 34,
         "countryName": "Palestinian Territories",
-        "visaType": "Visa Not Required",
+        "visaType": "Vize Gerekmiyor",
         "maxStay": "Determined by Israeli border authorities",
         "notes": "Entry is controlled by Israel; restrictions may vary."
-      },
-      {
+    },
+    {
         "id": 35,
         "countryName": "Panama",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
         "notes": "Proof of onward travel and sufficient funds required."
-      },
-      {
+    },
+    {
         "id": 36,
         "countryName": "Paraguay",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
         "notes": "Passport validity of 6 months recommended."
-      },
-      {
+    },
+    {
         "id": 37,
         "countryName": "Qatar",
-        "visaType": "Visa on Arrival",
-        "maxStay": "30 days",
+        "visaType": "Vize on Arrival",
+        "maxStay": "30 gün",
         "notes": "Extendable for an additional 30 days. Passport must be valid for at least 6 months."
-      },
-      {
+    },
+    {
         "id": 38,
         "countryName": "Serbia",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
         "notes": "Stay of 90 days within a 6-month period."
-      },
-      {
+    },
+    {
         "id": 39,
         "countryName": "Singapore",
-        "visaType": "Visa Not Required (with conditions)",
-        "maxStay": "30 days",
-        "notes": "Check ‘Visa-Free Transit Facility’ rules if transiting. Strict entry requirements."
-      },
-      {
+        "visaType": "Vize Gerekmiyor (with conditions)",
+        "maxStay": "30 gün",
+        "notes": "Check 'Visa-Free Transit Facility' rules if transiting. Strict entry requirements."
+    },
+    {
         "id": 40,
         "countryName": "South Africa",
-        "visaType": "Visa on Arrival (Visa Exemption)",
-        "maxStay": "30 days",
+        "visaType": "Vize on Arrival (Visa Exemption)",
+        "maxStay": "30 gün",
         "notes": "Passport must have at least 1 blank page for entry stamp."
-      },
-      {
+    },
+    {
         "id": 41,
         "countryName": "South Korea",
-        "visaType": "Visa Not Required (K-ETA may apply)",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor (K-ETA may apply)",
+        "maxStay": "90 gün",
         "notes": "Turkish citizens may need a K-ETA (electronic travel authorization) before boarding. Check latest rules."
-      },
-      {
+    },
+    {
         "id": 42,
         "countryName": "Sudan",
-        "visaType": "Visa on Arrival",
-        "maxStay": "30 days",
+        "visaType": "Vize on Arrival",
+        "maxStay": "30 gün",
         "notes": "Not always guaranteed; best to check ahead. Travel restrictions apply in certain areas."
-      },
-      {
+    },
+    {
         "id": 43,
         "countryName": "Taiwan",
-        "visaType": "eVisa (some categories) or Visa on Arrival",
-        "maxStay": "14 days (VoA)",
+        "visaType": "e-Vize (some categories) veya Vize on Arrival",
+        "maxStay": "14 gün (VoA)",
         "notes": "Rules can be strict—confirm details before travel."
-      },
-      {
+    },
+    {
         "id": 44,
         "countryName": "Tajikistan",
-        "visaType": "eVisa or Visa on Arrival",
-        "maxStay": "45 days",
+        "visaType": "e-Vize veya Vize on Arrival",
+        "maxStay": "45 gün",
         "notes": "GBAO permit needed if traveling in certain restricted areas (e.g., Pamir region)."
-      },
-      {
+    },
+    {
         "id": 45,
         "countryName": "Thailand",
-        "visaType": "Visa on Arrival",
-        "maxStay": "15 days",
+        "visaType": "Vize on Arrival",
+        "maxStay": "15 gün",
         "notes": "VoA fee and documentation required. Check official site for updates."
-      },
-      {
+    },
+    {
         "id": 46,
         "countryName": "Tunisia",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
         "notes": "Proof of accommodation may be required. Passport validity of 6 months recommended."
-      },
-      {
+    },
+    {
         "id": 47,
         "countryName": "Ukraine",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
         "notes": "Within a 180-day period. May be subject to change due to ongoing conditions."
-      },
-      {
+    },
+    {
         "id": 48,
         "countryName": "Uruguay",
-        "visaType": "Visa Not Required",
-        "maxStay": "90 days",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "90 gün",
         "notes": "Passport validity of 6 months recommended. Stay can sometimes be extended."
-      },
-      {
+    },
+    {
         "id": 49,
-        "countryName": "Uzbekistan",
-        "visaType": "Visa Not Required",
-        "maxStay": "30 days",
-        "notes": "Introduced visa-free regime for Turkish citizens. Must have valid passport."
-      }
+        "countryName": "Özbekistan",
+        "visaType": "Vize Gerekmiyor",
+        "maxStay": "30 gün",
+        "notes": "Türk vatandaşları için vizesiz rejim. Geçerli pasaport gerekli."
+    }
   ];
 
   private favoritesSubject = new BehaviorSubject<Set<string>>(new Set<string>());

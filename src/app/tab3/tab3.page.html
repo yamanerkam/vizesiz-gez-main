@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Your Favorite Countries
+      Favori Ülkeleriniz
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -16,8 +16,8 @@
             <ion-card-subtitle>{{ country.visaType }}</ion-card-subtitle>
           </ion-card-header>
           <ion-card-content>
-            <p><strong>Max Stay:</strong> {{ country.maxStay }}</p>
-            <p><strong>Notes:</strong> {{ country.notes }}</p>
+            <p><strong>Maksimum Kalış:</strong> {{ country.maxStay }}</p>
+            <p><strong>Notlar:</strong> {{ country.notes }}</p>
           </ion-card-content>
         </ion-card>
         <ion-button 
@@ -32,8 +32,8 @@
     </ion-list>
     <ng-template #noFavorites>
       <div class="ion-text-center ion-padding">
-        <p>You haven't added any countries to your favorites yet.</p>
-        <ion-button (click)="goToCountriesList()">Go to Countries List</ion-button>
+        <p>Henüz favori ülke eklemediniz.</p>
+        <ion-button (click)="goToCountriesList()">Ülke Listesine Git</ion-button>
       </div>
     </ng-template>
   </ng-container>
