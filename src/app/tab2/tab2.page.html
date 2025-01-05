@@ -1,31 +1,32 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Ülke Listesi
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>Ülkeler</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content>
   <ion-list>
-    <ion-item *ngFor="let country of countries" class="country-card" (click)="openCountryModal(country)">
-      <ion-card>
-        <ion-card-header>
-          <ion-card-title>{{ country.countryName }}</ion-card-title>
-          <ion-card-subtitle>{{ country.visaType }}</ion-card-subtitle>
-        </ion-card-header>
-        <ion-card-content>
-          <p><strong>Maksimum Kalış:</strong> {{ country.maxStay }}</p>
-          <p><strong>Notlar:</strong> {{ country.notes }}</p>
-        </ion-card-content>
-      </ion-card>
+    <ion-item *ngFor="let country of countries" (click)="openCountryModal(country)">
+      <ion-label>
+        <div class="country-info">
+          <span class="flag">{{ country.flag }}</span>
+          <div class="text-info">
+            <h2>{{ country.countryName }}</h2>
+            <p>{{ country.capital.name }}</p>
+          </div>
+        </div>
+      </ion-label>
       <ion-button 
-        fill="clear" 
         slot="end" 
-        (click)="toggleFavorite(country); $event.stopPropagation()"
-        [color]="isFavorite(country.countryName) ? 'danger' : 'medium'"
-      >
-        <ion-icon name="heart" slot="icon-only"></ion-icon>
+        fill="clear"
+        (click)="toggleFavorite(country); $event.stopPropagation()">
+        <ion-icon 
+          [name]="isFavorite(country.countryName) ? 'heart' : 'heart-outline'"
+          [color]="isFavorite(country.countryName) ? 'danger' : 'medium'"
+          class="heart-icon"
+          [class.liked]="isFavorite(country.countryName)"
+          style="font-size: 24px; --ionicon-stroke-width: 32px;">
+        </ion-icon>
       </ion-button>
     </ion-item>
   </ion-list>

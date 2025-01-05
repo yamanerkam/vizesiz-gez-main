@@ -1,9 +1,20 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
+import { Storage } from '@ionic/storage-angular';
 
 export interface Country {
   id: number;
   countryName: string;
+  flag: string;  // emoji flag
+  currency: {
+    code: string;
+    name: string;
+    symbol: string;
+    rate: number;  // rate to TRY
+    lastUpdate?: string;  // Optional field for rate update date
+    oneUnitInTRY?: string;  // Make it optional with '?'
+  };
+  languages: string[];
   visaType: string;
   maxStay: string;
   notes: string;
@@ -34,10 +45,21 @@ export interface Country {
   providedIn: 'root'
 })
 export class CountryService {
+  private STORAGE_KEY = 'favoriteCountries';
   private countriesData: Country[] = [
     {
       "id": 1,
       "countryName": "Arnavutluk",
+      "flag": "🇦🇱",
+      "currency": {
+        "code": "ALL",
+        "name": "Arnavut Leki",
+        "symbol": "L",
+        "rate": 0.31,
+        "oneUnitInTRY": "1 ALL = 0.31 TL",
+        "lastUpdate": "2023-04-01"
+      },
+      "languages": ["Arnavutça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "180 günlük süre içinde 90 gün kalış.",
@@ -89,6 +111,16 @@ export class CountryService {
     {
       "id": 2,
       "countryName": "Azerbaycan",
+      "flag": "🇦🇿",
+      "currency": {
+        "code": "AZN",
+        "name": "Azerbaycan Manatı",
+        "symbol": "₼",
+        "rate": 18.75,
+        "oneUnitInTRY": "1 AZN = 18.75 TL",
+        "lastUpdate": "2023-04-01"
+      },
+      "languages": ["Azerice", "Rusça"],
       "visaType": "e-Vize veya Vizesiz",
       "maxStay": "30 gün",
       "notes": "Türk vatandaşları ASAN e-Vize başvurusu yapabilir veya belirli giriş noktalarında vize alabilir.",
@@ -140,6 +172,14 @@ export class CountryService {
     {
       "id": 3,
       "countryName": "Bahamalar",
+      "flag": "🇧🇸",
+      "currency": {
+        "code": "BSD",
+        "name": "Bahama Doları",
+        "symbol": "$",
+        "rate": 31.85
+      },
+      "languages": ["İngilizce"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Dönüş bileti ve yeterli maddi kaynak kanıtı gerekebilir.",
@@ -190,6 +230,14 @@ export class CountryService {
     {
       "id": 4,
       "countryName": "Barbados",
+      "flag": "🇧🇧",
+      "currency": {
+        "code": "BBD",
+        "name": "Barbados Doları",
+        "symbol": "$",
+        "rate": 15.90
+      },
+      "languages": ["İngilizce"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Göçmenlik memurları konaklama kanıtı ve yeterli maddi kaynak talep edebilir.",
@@ -240,6 +288,15 @@ export class CountryService {
     {
       "id": 5,
       "countryName": "Belarus",
+      "flag": "🇧🇾",
+      "currency": {
+        "code": "BYN",
+        "name": "Belarus Rublesi",
+        "symbol": "Br",
+        "rate": 12.45,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["Belarusça", "Rusça"],
       "visaType": "Vize Gerekmiyor (şartlı)",
       "maxStay": "30 gün",
       "notes": "Vizesiz giriş genellikle sadece Minsk Ulusal Havalimanı üzerinden. Resmi kaynaklara danışın.",
@@ -292,6 +349,15 @@ export class CountryService {
     {
       "id": 6,
       "countryName": "Bosna Hersek",
+      "flag": "🇧🇦",
+      "currency": {
+        "code": "BAM",
+        "name": "Bosna Hersek Markı",
+        "symbol": "KM",
+        "rate": 17.85,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["Boşnakça", "Hırvatça", "Sırpça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "180 günlük süre içinde 90 gün kalış.",
@@ -343,6 +409,15 @@ export class CountryService {
     {
       "id": 7,
       "countryName": "Brezilya",
+      "flag": "🇧🇷",
+      "currency": {
+        "code": "BRL",
+        "name": "Brezilya Reali",
+        "symbol": "R$",
+        "rate": 6.35,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["Portekizce"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Bir kez 90 gün daha uzatılabilir (yılda toplam 180 gün).",
@@ -395,6 +470,15 @@ export class CountryService {
     {
       "id": 8,
       "countryName": "Şili",
+      "flag": "🇨🇱",
+      "currency": {
+        "code": "CLP",
+        "name": "Şili Pesosu",
+        "symbol": "$",
+        "rate": 0.032,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["İspanyolca"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "6 aylık pasaport geçerliliği önerilir.",
@@ -447,6 +531,15 @@ export class CountryService {
     {
       "id": 9,
       "countryName": "Kolombiya",
+      "flag": "🇨🇴",
+      "currency": {
+        "code": "COP",
+        "name": "Kolombiya Pesosu",
+        "symbol": "$",
+        "rate": 0.008,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["İspanyolca"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Takvim yılı başına toplam 180 güne kadar uzatılabilir.",
@@ -499,6 +592,15 @@ export class CountryService {
     {
       "id": 10,
       "countryName": "Ekvador",
+      "flag": "🇪🇨",
+      "currency": {
+        "code": "USD",
+        "name": "Amerikan Doları",
+        "symbol": "$",
+        "rate": 31.85,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["İspanyolca"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Kalış süresi bazen uzatılabilir; yerel göçmenlik ofisiyle görüşün.",
@@ -509,7 +611,7 @@ export class CountryService {
       "touristicPlaces": [
         {
           "placeName": "Tarihi Quito",
-          "description": "UNESCO Dünya Mirası bölgesi, koloniyel mimari ve kiliselerle dolu."
+          "description": "UNESCO Dünya Mirası bölgesi, kolonyal mimari ve kiliselerle dolu."
         },
         {
           "placeName": "Galápagos Adaları",
@@ -550,6 +652,15 @@ export class CountryService {
     {
       "id": 11,
       "countryName": "El Salvador",
+      "flag": "🇸🇻",
+      "currency": {
+        "code": "USD",
+        "name": "Amerikan Doları",
+        "symbol": "$",
+        "rate": 31.85,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["İspanyolca"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "CA-4 Anlaşması'nın parçası (Guatemala, Honduras, Nikaragua, El Salvador).",
@@ -601,6 +712,15 @@ export class CountryService {
     {
       "id": 12,
       "countryName": "Gürcistan",
+      "flag": "🇬🇪",
+      "currency": {
+        "code": "GEL",
+        "name": "Gürcistan Larisi",
+        "symbol": "₾",
+        "rate": 11.95,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["Gürcüce", "Rusça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "1 yıl",
       "notes": "Türk vatandaşları için en cömert vizesiz kalış sürelerinden biri.",
@@ -652,6 +772,15 @@ export class CountryService {
     {
       "id": 13,
       "countryName": "Honduras",
+      "flag": "🇭🇳",
+      "currency": {
+        "code": "HNL",
+        "name": "Honduras Lempirası",
+        "symbol": "L",
+        "rate": 1.29,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["İspanyolca"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "CA-4 Anlaşması kapsamında, Guatemala, El Salvador ve Nikaragua süreleriyle ortak.",
@@ -701,7 +830,16 @@ export class CountryService {
     },
     {
       "id": 14,
-      "countryName": "Hong Kong (Çin SAR)",
+      "countryName": "Hong Kong",
+      "flag": "🇭🇰",
+      "currency": {
+        "code": "HKD",
+        "name": "Hong Kong Doları",
+        "symbol": "$",
+        "rate": 4.05,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["Kantonca", "İngilizce", "Mandarin Çincesi"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Çin anakarasından farklı olarak vize gerekmiyor.",
@@ -754,6 +892,15 @@ export class CountryService {
     {
       "id": 15,
       "countryName": "İran",
+      "flag": "🇮🇷",
+      "currency": {
+        "code": "IRR",
+        "name": "İran Riyali",
+        "symbol": "﷼",
+        "rate": 0.00075,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["Farsça"],
       "visaType": "Varışta Vize veya e-Vize",
       "maxStay": "30 gün",
       "notes": "Büyük havalimanlarında mevcut. Uzatma mümkün.",
@@ -805,6 +952,15 @@ export class CountryService {
     {
       "id": 16,
       "countryName": "Irak (Bazı Bölgeler)",
+      "flag": "🇮🇶",
+      "currency": {
+        "code": "IQD",
+        "name": "Irak Dinarı",
+        "symbol": "د.ع",
+        "rate": 0.024,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["Arapça"],
       "visaType": "IKBY'de Varışta Vize (Kürdistan Bölgesi)",
       "maxStay": "30 gün",
       "notes": "Irak Kürdistan Bölgesi'nde varışta vize; diğer bölgeler için önceden vize gerekebilir.",
@@ -856,6 +1012,14 @@ export class CountryService {
     {
       "id": 17,
       "countryName": "Japonya",
+      "flag": "🇯🇵",
+      "currency": {
+        "code": "JPY",
+        "name": "Japanese Yen",
+        "symbol": "¥",
+        "rate": 0.065 // Example rate, replace with the correct rate
+      },
+      "languages": ["Japonca"],
       "visaType": "Vize Gerekmiyor (değişebilir)",
       "maxStay": "90 güne kadar",
       "notes": "Japonya bazı pasaportlar için e-Vize uygulaması başlattı. En güncel düzenlemeleri kontrol edin.",
@@ -907,6 +1071,15 @@ export class CountryService {
     {
       "id": 18,
       "countryName": "Ürdün",
+      "flag": "🇯🇴",
+      "currency": {
+        "code": "JOD",
+        "name": "Ürdün Dinarı",
+        "symbol": "د.ا",
+        "rate": 44.75,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["Arapça"],
       "visaType": "Varışta Vize",
       "maxStay": "30 gün",
       "notes": "Varışta ücret gerekli. Jordan Pass alınırsa vize ücreti muaf tutulabilir.",
@@ -958,6 +1131,14 @@ export class CountryService {
     {
       "id": 19,
       "countryName": "Kazakistan",
+      "flag": "🇰🇿",
+      "currency": {
+        "code": "KZT",
+        "name": "Kazakhstani Tenge",
+        "symbol": "₸",
+        "rate": 0.023 // Example rate, replace with the correct rate
+      },
+      "languages": ["Kazakça", "Rusça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "30 gün",
       "notes": "İleri seyahat kanıtı ve yeterli maddi kaynak gerekli.",
@@ -1010,6 +1191,14 @@ export class CountryService {
     {
       "id": 20,
       "countryName": "Kosova",
+      "flag": "🇽🇰",
+      "currency": {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "rate": 28.50 // Example rate, replace with the correct rate
+      },
+      "languages": ["Arnavutça", "Sırpça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "180 günlük süre içinde 90 gün kalış.",
@@ -1061,6 +1250,14 @@ export class CountryService {
     {
       "id": 21,
       "countryName": "Lübnan",
+      "flag": "🇱🇧",
+      "currency": {
+        "code": "LBP",
+        "name": "Lebanese Pound",
+        "symbol": "ل.ل",
+        "rate": 1
+      },
+      "languages": ["Arapça", "Fransızca"],
       "visaType": "Varışta Vize",
       "maxStay": "90 gün",
       "notes": "Beyrut Havalimanı'nda Türk vatandaşlarına ücretsiz vize (İsrail damgası olmamalı).",
@@ -1110,7 +1307,15 @@ export class CountryService {
     },
     {
       "id": 22,
-      "countryName": "Makao (Çin SAR)",
+      "countryName": "Makao",
+      "flag": "🇲🇴",
+      "currency": {
+        "code": "MOP",
+        "name": "Macanese Pataca",
+        "symbol": "MOP$",
+        "rate": 1
+      },
+      "languages": ["Portekizce", "Kantonca", "Mandarin Çincesi"],
       "visaType": "Varışta Vize",
       "maxStay": "30 gün",
       "notes": "Güncel kurallar için yerel yetkililer veya havayoluna danışın.",
@@ -1162,6 +1367,14 @@ export class CountryService {
     {
       "id": 23,
       "countryName": "Malezya",
+      "flag": "🇲🇾",
+      "currency": {
+        "code": "MYR",
+        "name": "Malaysian Ringgit",
+        "symbol": "RM",
+        "rate": 1
+      },
+      "languages": ["Malayca", "İngilizce"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "90 güne kadar olan kalışlarda vize gerekmiyor.",
@@ -1214,6 +1427,14 @@ export class CountryService {
     {
       "id": 24,
       "countryName": "Maldivler",
+      "flag": "🇲🇻",
+      "currency": {
+        "code": "MVR",
+        "name": "Maldivian Rufiyaa",
+        "symbol": "ރ",
+        "rate": 1
+      },
+      "languages": ["Dhivehi"],
       "visaType": "Varışta Vize",
       "maxStay": "30 gün",
       "notes": "Onaylı otel rezervasyonu ve yeterli maddi kaynak gerekli.",
@@ -1264,6 +1485,14 @@ export class CountryService {
     {
       "id": 25,
       "countryName": "Moldova",
+      "flag": "🇲🇩",
+      "currency": {
+        "code": "MDL",
+        "name": "Moldovan Leu",
+        "symbol": "L",
+        "rate": 1
+      },
+      "languages": ["Rumence"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "180 günlük süre içinde 90 gün kalış.",
@@ -1314,7 +1543,15 @@ export class CountryService {
     },
     {
       "id": 26,
-      "countryName": "Mongolia",
+      "countryName": "Moğolistan",
+      "flag": "🇲🇳",
+      "currency": {
+        "code": "MNT",
+        "name": "Mongolian Tögrög",
+        "symbol": "₮",
+        "rate": 1
+      },
+      "languages": ["Moğolca", "Rusça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "30 gün",
       "notes": "30 günden uzun kalışlarda göçmenlik kaydı gerekli.",
@@ -1333,7 +1570,7 @@ export class CountryService {
         },
         {
           "placeName": "Ulan Batur – Cengiz Han Meydanı",
-          "description": "Şehrin ana meydanı, hükümet binaları ve Cengiz Han Anıtı."
+          "description": "Şehirin ana meydanı, hükümet binaları ve Cengiz Han Anıtı."
         },
         {
           "placeName": "Khövsgöl Gölü",
@@ -1366,7 +1603,15 @@ export class CountryService {
     },
     {
       "id": 27,
-      "countryName": "Montenegro",
+      "countryName": "Karadağ",
+      "flag": "🇲🇪",
+      "currency": {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "rate": 1
+      },
+      "languages": ["Karadağca", "Sırpça", "Boşnakça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "6 aylık dönemde 90 gün kalış hakkı.",
@@ -1417,7 +1662,15 @@ export class CountryService {
     },
     {
       "id": 28,
-      "countryName": "Morocco",
+      "countryName": "Fas",
+      "flag": "🇲🇦",
+      "currency": {
+        "code": "MAD",
+        "name": "Moroccan Dirham",
+        "symbol": "د.م.",
+        "rate": 1
+      },
+      "languages": ["Arapça", "Fransızca"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Pasaport en az 6 ay geçerli olmalı.",
@@ -1469,6 +1722,14 @@ export class CountryService {
     {
       "id": 29,
       "countryName": "Nepal",
+      "flag": "🇳🇵",
+      "currency": {
+        "code": "NPR",
+        "name": "Nepalese Rupee",
+        "symbol": "₨",
+        "rate": 1
+      },
+      "languages": ["Nepalce", "İngilizce"],
       "visaType": "Vize on Arrival",
       "maxStay": "15/30/90 gün (ücrete göre)",
       "notes": "Vize ücreti kalış süresine göre değişir.",
@@ -1518,7 +1779,15 @@ export class CountryService {
     },
     {
       "id": 30,
-      "countryName": "Nicaragua",
+      "countryName": "Nikaragua",
+      "flag": "🇳🇮",
+      "currency": {
+        "code": "NIO",
+        "name": "Nicaraguan Córdoba",
+        "symbol": "C$",
+        "rate": 1
+      },
+      "languages": ["İspanyolca"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "CA-4 bölgesi kapsamında (Guatemala, El Salvador, Honduras).",
@@ -1568,7 +1837,15 @@ export class CountryService {
     },
     {
       "id": 31,
-      "countryName": "North Macedonia",
+      "countryName": "Kuzey Makedonya",
+      "flag": "🇲🇰",
+      "currency": {
+        "code": "MKD",
+        "name": "Macedonian Denar",
+        "symbol": "ден",
+        "rate": 0.48 // Example rate, replace with the correct rate
+      },
+      "languages": ["Makedonca", "Arnavutça", "Sırpça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "180 günlük süre içinde 90 gün kalış.",
@@ -1619,7 +1896,15 @@ export class CountryService {
     },
     {
       "id": 32,
-      "countryName": "Northern Cyprus (TRNC)",
+      "countryName": "Kuzey Kıbrıs (KKTC)",
+      "flag": "🇹🇷",
+      "currency": {
+        "code": "TRY",
+        "name": "Turkish Lira",
+        "symbol": "₺",
+        "rate": 1
+      },
+      "languages": ["Türkçe", "İngilizce"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "Süre kısıtlaması yok",
       "notes": "Yalnızca Türkiye tarafından tanınır; uluslararası uçuşlar Türkiye aktarmalıdır.",
@@ -1669,7 +1954,15 @@ export class CountryService {
     },
     {
       "id": 33,
-      "countryName": "Oman",
+      "countryName": "Umman",
+      "flag": "🇴🇲",
+      "currency": {
+        "code": "OMR",
+        "name": "Omani Rial",
+        "symbol": "ر.ع.",
+        "rate": 70.00 // Example rate, replace with the correct rate
+      },
+      "languages": ["Arapça", "İngilizce"],
       "visaType": "Vize on Arrival veya e-Vize",
       "maxStay": "10 gün (VoA) / 30 gün (e-Vize)",
       "notes": "Politikalar sık güncelleniyor, resmi kaynakları kontrol edin.",
@@ -1720,7 +2013,15 @@ export class CountryService {
     },
     {
       "id": 34,
-      "countryName": "Palestinian Territories",
+      "countryName": "Filistin Bölgeleri",
+      "flag": "🇵🇸",
+      "currency": {
+        "code": "ILS",
+        "name": "Israeli Shekel",
+        "symbol": "₪",
+        "rate": 7.50 // Example rate, replace with the correct rate
+      },
+      "languages": ["Arapça", "İbranice"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "İsrail sınır yetkilileri belirliyor",
       "notes": "Giriş ve çıkışlar İsrail kontrolündedir, farklı kısıtlamalar olabilir.",
@@ -1772,6 +2073,14 @@ export class CountryService {
     {
       "id": 35,
       "countryName": "Panama",
+      "flag": "🇵🇦",
+      "currency": {
+        "code": "USD",
+        "name": "United States Dollar",
+        "symbol": "$",
+        "rate": 28.50 // Example rate, replace with the correct rate
+      },
+      "languages": ["İspanyolca", "İngilizce"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Gidiş-dönüş bileti ve yeterli para kanıtı gerekebilir.",
@@ -1824,6 +2133,14 @@ export class CountryService {
     {
       "id": 36,
       "countryName": "Paraguay",
+      "flag": "🇵🇾",
+      "currency": {
+        "code": "PYG",
+        "name": "Paraguayan Guarani",
+        "symbol": "₲",
+        "rate": 0.0039 // Example rate, replace with the correct rate
+      },
+      "languages": ["İspanyolca", "Guarani"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Pasaport geçerliliği 6 ay önerilir.",
@@ -1875,7 +2192,15 @@ export class CountryService {
     },
     {
       "id": 37,
-      "countryName": "Qatar",
+      "countryName": "Katar",
+      "flag": "🇶🇦",
+      "currency": {
+        "code": "QAR",
+        "name": "Qatari Rial",
+        "symbol": "ر.ق",
+        "rate": 7.50 // Example rate, replace with the correct rate
+      },
+      "languages": ["Arapça", "İngilizce"],
       "visaType": "Vize on Arrival",
       "maxStay": "30 gün",
       "notes": "30 gün daha uzatılabilir. Pasaport en az 6 ay geçerli olmalı.",
@@ -1925,7 +2250,15 @@ export class CountryService {
     },
     {
       "id": 38,
-      "countryName": "Serbia",
+      "countryName": "Sırbistan",
+      "flag": "🇷🇸",
+      "currency": {
+        "code": "RSD",
+        "name": "Serbian Dinar",
+        "symbol": "дин.",
+        "rate": 0.24 // Example rate, replace with the correct rate
+      },
+      "languages": ["Sırpça", "İngilizce", "Hırvatça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "6 aylık dönemde 90 gün kalış hakkı.",
@@ -1976,7 +2309,15 @@ export class CountryService {
     },
     {
       "id": 39,
-      "countryName": "Singapore",
+      "countryName": "Singapur",
+      "flag": "🇸🇬",
+      "currency": {
+        "code": "SGD",
+        "name": "Singapore Dollar",
+        "symbol": "$",
+        "rate": 20.50 // Example rate, replace with the correct rate
+      },
+      "languages": ["İngilizce", "Çince", "Malayca", "Tamil"],
       "visaType": "Vize Gerekmiyor (with conditions)",
       "maxStay": "30 gün",
       "notes": "Sıkı giriş kuralları var. 'Visa-Free Transit Facility' koşullarını kontrol edin.",
@@ -2028,7 +2369,15 @@ export class CountryService {
     },
     {
       "id": 40,
-      "countryName": "South Africa",
+      "countryName": "Güney Afrika",
+      "flag": "🇿🇦",
+      "currency": {
+        "code": "ZAR",
+        "name": "South African Rand",
+        "symbol": "R",
+        "rate": 1.50 // Example rate, replace with the correct rate
+      },
+      "languages": ["Afrikaanca", "İngilizce", "Zulu", "Xhosa", "Sotho", "Tsonga", "Swati", "Venda", "Ndebele"],
       "visaType": "Vize on Arrival (Visa Exemption)",
       "maxStay": "30 gün",
       "notes": "Pasaportta en az 1 boş sayfa olmalı.",
@@ -2080,7 +2429,15 @@ export class CountryService {
     },
     {
       "id": 41,
-      "countryName": "South Korea",
+      "countryName": "Güney Kore",
+      "flag": "🇰🇷",
+      "currency": {
+        "code": "KRW",
+        "name": "South Korean Won",
+        "symbol": "₩",
+        "rate": 0.021 // Example rate, replace with the correct rate
+      },
+      "languages": ["Korece"],
       "visaType": "Vize Gerekmiyor (K-ETA uygulanabilir)",
       "maxStay": "90 gün",
       "notes": "K-ETA elektronik seyahat izni gerekebilir; güncel kuralları kontrol edin.",
@@ -2132,6 +2489,14 @@ export class CountryService {
     {
       "id": 42,
       "countryName": "Sudan",
+      "flag": "🇸🇩",
+      "currency": {
+        "code": "SDG",
+        "name": "Sudanese Pound",
+        "symbol": "ج.س",
+        "rate": 0.018 // Example rate, replace with the correct rate
+      },
+      "languages": ["Arapça", "İngilizce"],
       "visaType": "Vize on Arrival",
       "maxStay": "30 gün",
       "notes": "Her zaman garanti değil; önceden vize daha güvenli olabilir.",
@@ -2182,7 +2547,15 @@ export class CountryService {
     },
     {
       "id": 43,
-      "countryName": "Taiwan",
+      "countryName": "Tayvan",
+      "flag": "🇹🇼",
+      "currency": {
+        "code": "TWD",
+        "name": "New Taiwan Dollar",
+        "symbol": "NT$",
+        "rate": 0.90 // Example rate, replace with the correct rate
+      },
+      "languages": ["Çince", "İngilizce"],
       "visaType": "e-Vize (bazı kategoriler) veya Vize on Arrival",
       "maxStay": "14 gün (VoA)",
       "notes": "Kurallar değişebildiğinden seyahat öncesi teyit edin.",
@@ -2233,7 +2606,16 @@ export class CountryService {
     },
     {
       "id": 44,
-      "countryName": "Tajikistan",
+      "countryName": "Tacikistan",
+      "flag": "🇹🇯",
+      "currency": {
+        "code": "TJS",
+        "name": "Tacikistan Somonisi",
+        "symbol": "ЅM",
+        "rate": 2.91,
+        "lastUpdate": "2024-03-19"
+      },
+      "languages": ["Tacikçe", "Rusça"],
       "visaType": "e-Vize veya Vize on Arrival",
       "maxStay": "45 gün",
       "notes": "GBAO izni, Pamir bölgesine seyahat için gerekli olabilir.",
@@ -2285,7 +2667,15 @@ export class CountryService {
     },
     {
       "id": 45,
-      "countryName": "Thailand",
+      "countryName": "Tayland",
+      "flag": "🇹🇭",
+      "currency": {
+        "code": "THB",
+        "name": "Tayland Bahtı",
+        "symbol": "฿",
+        "rate": 0.89 // 1 THB = 0.89 TRY
+      },
+      "languages": ["Tayca"],
       "visaType": "Vize on Arrival",
       "maxStay": "15 gün",
       "notes": "VoA ücreti ve belgeler gerekli olabilir.",
@@ -2336,7 +2726,15 @@ export class CountryService {
     },
     {
       "id": 46,
-      "countryName": "Tunisia",
+      "countryName": "Tunus",
+      "flag": "🇹🇳",
+      "currency": {
+        "code": "TND",
+        "name": "Tunus Dinarı",
+        "symbol": "د.ت",
+        "rate": 10.25 // 1 TND = 10.25 TRY
+      },
+      "languages": ["Arapça", "Fransızca"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Konaklama kanıtı talep edilebilir. Pasaport 6 ay geçerli olmalı.",
@@ -2387,7 +2785,15 @@ export class CountryService {
     },
     {
       "id": 47,
-      "countryName": "Ukraine",
+      "countryName": "Ukrayna",
+      "flag": "🇺🇦",
+      "currency": {
+        "code": "UAH",
+        "name": "Ukrayna Grivnası",
+        "symbol": "₴",
+        "rate": 0.85 // 1 UAH = 0.85 TRY
+      },
+      "languages": ["Ukraynaca", "Rusça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "180 günlük süre içinde 90 gün. Son durumu güncel koşullara göre takip edin.",
@@ -2439,6 +2845,14 @@ export class CountryService {
     {
       "id": 48,
       "countryName": "Uruguay",
+      "flag": "🇺🇾",
+      "currency": {
+        "code": "UYU",
+        "name": "Uruguay Pesosu",
+        "symbol": "$",
+        "rate": 0.82 // 1 UYU = 0.82 TRY
+      },
+      "languages": ["İspanyolca"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "90 gün",
       "notes": "Pasaport 6 ay geçerli olmalı. Kalış uzatması bazen mümkün.",
@@ -2490,6 +2904,14 @@ export class CountryService {
     {
       "id": 49,
       "countryName": "Özbekistan",
+      "flag": "🇺🇿",
+      "currency": {
+        "code": "UZS",
+        "name": "Özbek Somu",
+        "symbol": "so'm",
+        "rate": 0.0026 // 1 UZS = 0.0026 TRY
+      },
+      "languages": ["Özbekçe", "Rusça"],
       "visaType": "Vize Gerekmiyor",
       "maxStay": "30 gün",
       "notes": "Türk vatandaşları için vizesiz rejim geçerli.",
@@ -2545,13 +2967,23 @@ export class CountryService {
   private favoritesSubject = new BehaviorSubject<Set<string>>(new Set<string>());
   favorites$ = this.favoritesSubject.asObservable();
 
-  constructor() {}
+  constructor(private storage: Storage) {
+    this.init();
+  }
+
+  async init() {
+    await this.storage.create();
+    const storedFavorites = await this.storage.get(this.STORAGE_KEY);
+    if (storedFavorites) {
+      this.favoritesSubject.next(new Set(storedFavorites));
+    }
+  }
 
   getCountries(): Country[] {
     return this.countriesData;
   }
 
-  toggleFavorite(countryName: string) {
+  async toggleFavorite(countryName: string) {
     const currentFavorites = this.favoritesSubject.value;
     if (currentFavorites.has(countryName)) {
       currentFavorites.delete(countryName);
@@ -2559,10 +2991,19 @@ export class CountryService {
       currentFavorites.add(countryName);
     }
     this.favoritesSubject.next(new Set(currentFavorites));
+    await this.storage.set(this.STORAGE_KEY, Array.from(currentFavorites));
   }
 
   isFavorite(countryName: string): boolean {
     return this.favoritesSubject.value.has(countryName);
+  }
+
+  private formatCurrencyInfo(code: string, rate: number): string {
+    return `1 ${code} = ${rate.toFixed(2)} TL`;
+  }
+
+  getCurrencyInfo(country: Country): string {
+    return `1 ${country.currency.code} = ${country.currency.rate.toFixed(2)} TL`;
   }
 }
 

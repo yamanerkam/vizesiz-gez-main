@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar color="tertiary">
-    <ion-title>{{ country.countryName }}</ion-title>
+    <ion-title>{{ country.flag }} {{ country.countryName }}</ion-title>
     <ion-buttons slot="end">
       <ion-button (click)="dismiss()">
         <ion-icon name="close-outline"></ion-icon>
@@ -17,6 +17,41 @@
       <p>{{ country.capital.symbol }}</p>
     </ion-label>
   </ion-item>
+
+  <!-- Basic Info Card -->
+  <ion-card>
+    <ion-item lines="none" color="light">
+      <ion-icon slot="start" name="information-circle-outline" color="primary"></ion-icon>
+      <ion-label>
+        <h2>Temel Bilgiler</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      <ion-list>
+        <!-- Languages -->
+        <ion-item>
+          <ion-icon slot="start" name="language-outline" color="primary"></ion-icon>
+          <ion-label>
+            <h3>Konuşulan Diller</h3>
+            <ion-chip *ngFor="let lang of country.languages" color="tertiary" outline>
+              {{ lang }}
+            </ion-chip>
+          </ion-label>
+        </ion-item>
+
+        <!-- Currency -->
+        <ion-item>
+          <ion-icon slot="start" name="cash-outline" color="success"></ion-icon>
+          <ion-label>
+            <h3>Para Birimi</h3>
+            <p>{{ country.currency.name }} ({{ country.currency.symbol }})</p>
+            <p><strong>{{ countryService.getCurrencyInfo(country) }}</strong></p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
 
   <!-- Visa Info -->
   <ion-card>

@@ -1,40 +1,53 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Favori Ülkeleriniz
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>Favoriler</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ng-container *ngIf="favoriteCountries$ | async as favoriteCountries">
-    <ion-list *ngIf="favoriteCountries.length > 0; else noFavorites">
-      <ion-item *ngFor="let country of favoriteCountries" class="country-card">
-        <ion-card>
-          <ion-card-header>
-            <ion-card-title>{{ country.countryName }}</ion-card-title>
-            <ion-card-subtitle>{{ country.visaType }}</ion-card-subtitle>
-          </ion-card-header>
-          <ion-card-content>
-            <p><strong>Maksimum Kalış:</strong> {{ country.maxStay }}</p>
-            <p><strong>Notlar:</strong> {{ country.notes }}</p>
-          </ion-card-content>
-        </ion-card>
+<ion-content>
+  <ng-container *ngIf="(favoriteCountries$ | async)?.length; else noFavorites">
+    <ion-list>
+      <ion-item *ngFor="let country of favoriteCountries$ | async" (click)="openCountryModal(country)">
+        <ion-label>
+          <div class="country-info">
+            <span class="flag">{{ country.flag }}</span>
+            <div class="text-info">
+              <h2>{{ country.countryName }}</h2>
+              <p>{{ country.capital.name }}</p>
+            </div>
+          </div>
+        </ion-label>
         <ion-button 
-          fill="clear" 
           slot="end" 
-          (click)="toggleFavorite(country)"
-          color="danger"
-        >
-          <ion-icon name="heart" slot="icon-only"></ion-icon>
+          fill="clear"
+          (click)="toggleFavorite(country); $event.stopPropagation()">
+          <ion-icon 
+            name="heart" 
+            color="danger"
+            class="heart-icon liked"
+            style="font-size: 24px; --ionicon-stroke-width: 32px;">
+          </ion-icon>
         </ion-button>
       </ion-item>
     </ion-list>
-    <ng-template #noFavorites>
-      <div class="ion-text-center ion-padding">
-        <p>Henüz favori ülke eklemediniz.</p>
-        <ion-button (click)="goToCountriesList()">Ülke Listesine Git</ion-button>
-      </div>
-    </ng-template>
   </ng-container>
+
+  <ng-template #noFavorites>
+    <div class="ion-text-center ion-padding">
+      <ion-icon 
+        name="heart-outline" 
+        color="medium" 
+        style="font-size: 48px;">
+      </ion-icon>
+      <h2>Henüz favori ülkeniz yok</h2>
+      <p>Ülkeler listesinden favorilerinizi ekleyebilirsiniz</p>
+      <ion-button 
+        color="tertiary" 
+        (click)="goToCountriesList()"
+        expand="block"
+        class="ion-margin">
+        Ülkeleri Görüntüle
+      </ion-button>
+    </div>
+  </ng-template>
 </ion-content>

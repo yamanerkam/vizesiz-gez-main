@@ -1,0 +1,43 @@
+.heart-icon {
+  transition: transform 0.3s ease;
+
+  &.liked {
+    animation: likeAnimation 0.5s ease;
+  }
+
+  &:active {
+    animation: likeAnimation 0.5s ease;
+  }
+}
+
+@keyframes likeAnimation {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.country-info {
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+}
+
+
