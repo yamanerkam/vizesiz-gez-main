@@ -1404,22 +1404,17 @@ export class CountryService {
           {
             "placeName": "Astana Baiterek Kulesi",
             "description": "Şehrin modern simgesi, gözetleme alanı mevcut.",
-            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.tPQaTOGQMzuvN95nHqZVlgHaJ4&pid=Api"
-          },
-          {
-            "placeName": "Hazar Denizi kıyıları",
-            "description": "Aktau gibi şehirlerde sahil turizmi imkânı.",
-            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.lvcMwjtCwMBfJasK5pKYOQHaEc&pid=Api"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.f65ncKIfxl8clooMblFmpQHaFH&pid=Api"
           },
           {
             "placeName": "Almatı – Medeo Buz Pateni Pisti",
             "description": "Dünyanın en yüksek rakımlı açık hava pisti.",
-            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.YyPbNMCNPTtBBZgH3vo1tQHaE8&pid=Api"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.qhVdejH-U2Tom9rEBg5lsgHaE8&pid=Api"
           },
           {
             "placeName": "Büyük Almatı Gölü",
             "description": "Dağlarla çevrili kartpostal güzelliğinde bir göl.",
-            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.Y1OWTLJvM9PKO4MgQ7OPugHaE8&pid=Api"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.3CdPlea4rZu9f45qHCPMaQHaE8&pid=Api"
           }
         ],
         "importantNumbers": {
@@ -1442,22 +1437,12 @@ export class CountryService {
         "famousDishes": [
           {
             "name": "Beshbarmak (et ve hamur parçalarıyla yapılan geleneksel yemek)",
-            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.SaDggZQdywwWaTrbvlpT1gHaE8&pid=Api"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.KeBBc3jt-Q350vyk5YbQrgHaFj&pid=Api"
           },
-          {
-            "name": "Kazy (at eti sosisi)",
-            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.7A6jAwW2Z7W9FW9H2ixqOQHaE8&pid=Api"
-          },
-          {
-            "name": "Shubat (deve sütü)",
-            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.gmx53WpMUEGJPrm22WgIzQHaFj&pid=Api"
-          },
-          {
-            "name": "Baursak (kızarmış hamur lokmaları)",
-            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.cT_OhDlsV1mtR72kELchkwHaE8&pid=Api"
-          }
+      
         ]
       }
+      
       
       ,
       {
@@ -1482,22 +1467,22 @@ export class CountryService {
           {
             "placeName": "Kosova Müzesi",
             "description": "Bölgenin arkeolojik ve etnografik eserlerini barındırır.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Kosovo_Museum_in_Pristina.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.XOun66HkJXbxliRdqqLhBQHaFj&pid=Api"
           },
           {
             "placeName": "Fatih Camii",
             "description": "Osmanlı döneminden kalma, Priştine'nin tarihi sembolü.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Xhamia_e_Madhe_Prishtine.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.AYP4hyYo0TOc2ZrH2u0FPgHaLD&pid=Api"
           },
           {
             "placeName": "Germia Parkı",
             "description": "Priştine yakınında yeşil alan, yürüyüş ve piknik için ideal.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Germia_Park_in_Pristina.jpg"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.k6qc8I94PJmj3k2wKNutnQHaHN&pid=Api"
           },
           {
             "placeName": "Prizren Eski Şehir",
             "description": "Tarihi köprü, camiler ve kiliselerle ünlü Osmanlı dokulu kent.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Prizren_Old_Town_from_the_Fortress.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.6JsNkujgIxZEsMOwOw_UzwHaEi&pid=Api"
           }
         ],
         "importantNumbers": {
@@ -1519,22 +1504,23 @@ export class CountryService {
         "famousDishes": [
           {
             "name": "Flija (katmerli hamur yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flija_Albanian_traditional_food.jpg"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.3JnDUW8J-j1LM4JFzIHYjwHaEn&pid=Api"
           },
           {
             "name": "Pite (börek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Albanian_pite.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.S0y3cXuHoGXEo4FcsFqDWgHaEK&pid=Api"
           },
           {
             "name": "Tavë Prizreni (etli güveç)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Tave_prizreni.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.SCjlTmQEAe6ESa6I_TJluAHaFI&pid=Api"
           },
           {
             "name": "Sarma (lahana sarması)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Sarma_Serbia.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.WBlxRt1LjZf6wJ4Rhxn-5AHaE8&pid=Api"
           }
         ]
       }
+      
     ,
       {
         "id": 21,
