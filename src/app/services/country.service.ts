@@ -99,7 +99,7 @@ export class CountryService {
           "ONE Telecommunications",
           "Albtelecom"
         ],
-        "turkishProvidersUsage": "Türk operatörlerin (Turkcell, Vodafone, Türk Telekom) uluslararası dolaşım paketleri Arnavutluk'ta geçerlidir."
+        "turkishProvidersUsage": "Türk operatörlerin (Turkcell, Vodafone, Türk Telekom) uluslararası dolaşım paketleri Arnavutluk'ta geçerlidir. Telekomünikasyon ücretleri dikkate alınmalıdır."
       },
       "famousDishes": [
         "Tavë Kosi (yoğurtlu kuzu güveç)",
@@ -160,7 +160,7 @@ export class CountryService {
           "Bakcell",
           "Nar"
         ],
-        "turkishProvidersUsage": "Turkcell, Vodafone ve Türk Telekom'un roaming paketleri geçerli. Yerel SIM almak da kolay."
+        "turkishProvidersUsage": "Turkcell, Vodafone ve Türk Telekom'un kendi hattınızın paketleri geçerli. Yerel SIM almak da kolay. Telekomünikasyon ücretleri göz önünde bulundurulmalıdır."
       },
       "famousDishes": [
         "Plov (pilav)",
@@ -218,7 +218,7 @@ export class CountryService {
           "BTC (Bahamas Telecommunications Company)",
           "ALIV"
         ],
-        "turkishProvidersUsage": "Roaming oldukça pahalı olabilir. Gideceğiniz operatörden uluslararası paket alın veya yerel SIM kart edinin."
+        "turkishProvidersUsage": "Kendi hattınızın kullanımı oldukça pahalı olabilir. Gideceğiniz operatörden uluslararası paket alın veya yerel SIM kart edinin. Telekomünikasyon ücretleri yüksektir."
       },
       "famousDishes": [
         "Conch Salad (deniz kabuklusu salatası)",
@@ -276,7 +276,7 @@ export class CountryService {
           "Flow",
           "Digicel"
         ],
-        "turkishProvidersUsage": "Barbados'ta roaming ücretleri yüksek olabilir, yerel SIM önerilir veya global data paketi alın."
+        "turkishProvidersUsage": "Barbados'ta kendi hattınızın ücretleri yüksek olabilir, yerel SIM önerilir veya global data paketi alın. Telekomünikasyon ücretleri yüksektir."
       },
       "famousDishes": [
         "Flying Fish and Cou-Cou",
@@ -287,7 +287,7 @@ export class CountryService {
     },
     {
       "id": 5,
-      "countryName": "Belarus",
+      "countryName": "Beyaz Rusya",
       "flag": "🇧🇾",
       "currency": {
         "code": "BYN",
@@ -337,7 +337,7 @@ export class CountryService {
           "life:)",
           "Beltelecom (Wi-Fi)"
         ],
-        "turkishProvidersUsage": "Roaming genellikle aktif, ancak paket almanız önerilir. Yerel SIM daha ekonomik olabilir."
+        "turkishProvidersUsage": "Kendi hattınızın genellikle aktif, ancak paket almanız önerilir. Yerel SIM daha ekonomik olabilir. Telekomünikasyon ücretleri dikkate alınmalıdır."
       },
       "famousDishes": [
         "Draniki (patatesli krep)",
@@ -397,7 +397,7 @@ export class CountryService {
           "m:tel",
           "Eronet"
         ],
-        "turkishProvidersUsage": "Roaming genellikle kullanılabilir. Kısa süreli kalışlarda uygun paketlere bakın ya da yerel SIM alabilirsiniz."
+        "turkishProvidersUsage": "Kendi hattınızın genellikle kullanılabilir. Kısa süreli kalışlarda uygun paketlere bakın ya da yerel SIM alabilirsiniz. Telekomünikasyon ücretleri göz önünde bulundurulmalıdır."
       },
       "famousDishes": [
         "Ćevapi (Köfte benzeri ızgara et)",
@@ -458,7 +458,7 @@ export class CountryService {
           "TIM",
           "Oi"
         ],
-        "turkishProvidersUsage": "Roaming paketleri pahalı olabilir, Brezilya'da yerel SIM almak daha ekonomiktir."
+        "turkishProvidersUsage": "Kendi hattınızın genellikle aktif, ancak paket almanız önerilir. Yerel SIM daha ekonomik olabilir. Telekomünikasyon ücretleri dikkate alınmalıdır."
       },
       "famousDishes": [
         "Feijoada (fasulyeli et yemeği)",

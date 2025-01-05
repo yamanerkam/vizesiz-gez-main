@@ -1,17 +1,15 @@
 <ion-header>
-  <ion-toolbar color="tertiary">
-    <ion-title>{{ country.flag }} {{ country.countryName }}</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>{{ country.countryName }}</ion-title>
     <ion-buttons slot="end">
-      <ion-button (click)="dismiss()">
-        <ion-icon name="close-outline"></ion-icon>
-      </ion-button>
+      <ion-button (click)="dismiss()">Kapat</ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <!-- Capital Info -->
-  <ion-item color="tertiary" lines="none" class="ion-text-center">
+  <ion-item color="primary" lines="none" class="ion-text-center">
     <ion-label>
       <h1>{{ country.capital.name }}</h1>
       <p>{{ country.capital.symbol }}</p>
