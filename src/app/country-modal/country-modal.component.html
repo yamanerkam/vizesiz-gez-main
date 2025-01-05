@@ -1,20 +1,148 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="tertiary">
     <ion-title>{{ country.countryName }}</ion-title>
     <ion-buttons slot="end">
-      <ion-button (click)="dismiss()">Kapat</ion-button>
+      <ion-button (click)="dismiss()">
+        <ion-icon name="close-outline"></ion-icon>
+      </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <!-- Capital Info -->
+  <ion-item color="tertiary" lines="none" class="ion-text-center">
+    <ion-label>
+      <h1>{{ country.capital.name }}</h1>
+      <p>{{ country.capital.symbol }}</p>
+    </ion-label>
+  </ion-item>
+
+  <!-- Visa Info -->
   <ion-card>
-    <ion-card-header>
-      <ion-card-title>{{ country.visaType }}</ion-card-title>
-    </ion-card-header>
+    <ion-item lines="none" color="light">
+      <ion-icon slot="start" name="airplane-outline" color="primary"></ion-icon>
+      <ion-label>
+        <h2>Vize Bilgileri</h2>
+      </ion-label>
+    </ion-item>
+
     <ion-card-content>
-      <p><strong>Maksimum Kalış:</strong> {{ country.maxStay }}</p>
-      <p><strong>Notlar:</strong> {{ country.notes }}</p>
+      <ion-list>
+        <ion-item>
+          <ion-label>
+            <h3>Vize Tipi</h3>
+            <p>{{ country.visaType }}</p>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <h3>Maksimum Kalış</h3>
+            <p>{{ country.maxStay }}</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-label>
+            <h3>Notlar</h3>
+            <p>{{ country.notes }}</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Tourist Places -->
+  <ion-card>
+    <ion-item lines="none" color="light">
+      <ion-icon slot="start" name="location-outline" color="primary"></ion-icon>
+      <ion-label>
+        <h2>Turistik Yerler</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      <ion-list>
+        <ion-item *ngFor="let place of country.touristicPlaces">
+          <ion-label>
+            <h3>{{ place.placeName }}</h3>
+            <p>{{ place.description }}</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Famous Dishes -->
+  <ion-card>
+    <ion-item lines="none" color="light">
+      <ion-icon slot="start" name="restaurant-outline" color="primary"></ion-icon>
+      <ion-label>
+        <h2>Meşhur Yemekler</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      <ion-chip *ngFor="let dish of country.famousDishes" color="primary">
+        {{ dish }}
+      </ion-chip>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Important Information -->
+  <ion-card>
+    <ion-item lines="none" color="light">
+      <ion-icon slot="start" name="information-circle-outline" color="primary"></ion-icon>
+      <ion-label>
+        <h2>Önemli Bilgiler</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      <!-- Warnings -->
+      <ion-item>
+        <ion-icon slot="start" name="warning-outline" color="warning"></ion-icon>
+        <ion-label>
+          <h3>Uyarılar</h3>
+          <p>{{ country.thingsToKnow.warnings }}</p>
+        </ion-label>
+      </ion-item>
+
+      <!-- Transportation -->
+      <ion-item>
+        <ion-icon slot="start" name="bus-outline" color="success"></ion-icon>
+        <ion-label>
+          <h3>Ulaşım</h3>
+          <p>{{ country.thingsToKnow.transportation }}</p>
+        </ion-label>
+      </ion-item>
+
+      <!-- Emergency Numbers -->
+      <ion-list-header>
+        <ion-label>Acil Numaralar</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-icon slot="start" name="call-outline" color="danger"></ion-icon>
+        <ion-label>
+          <p>Polis: {{ country.importantNumbers.police }}</p>
+          <p>Ambulans: {{ country.importantNumbers.ambulance }}</p>
+          <p>İtfaiye: {{ country.importantNumbers.fire }}</p>
+          <p>Acil Çağrı: {{ country.importantNumbers.generalEmergency }}</p>
+        </ion-label>
+      </ion-item>
+
+      <!-- Internet Providers -->
+      <ion-list-header>
+        <ion-label>İnternet ve İletişim</ion-label>
+      </ion-list-header>
+      <ion-item lines="none">
+        <ion-label>
+          <h3>Operatörler</h3>
+          <ion-chip *ngFor="let provider of country.thingsToKnow.internetProviders" color="tertiary">
+            {{ provider }}
+          </ion-chip>
+          <p class="ion-padding-top">{{ country.thingsToKnow.turkishProvidersUsage }}</p>
+        </ion-label>
+      </ion-item>
     </ion-card-content>
   </ion-card>
 </ion-content> 

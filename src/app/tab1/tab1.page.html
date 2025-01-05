@@ -28,7 +28,7 @@
       <ion-grid>
         <ion-row>
           <ion-col size="6" size-md="3" *ngFor="let destination of popularDestinations">
-            <div class="destination-card">
+            <div class="destination-card" (click)="openCountryModal(destination.countryId)">
               <img [src]="destination.image" [alt]="destination.name">
               <h3>{{ destination.name }}</h3>
             </div>
