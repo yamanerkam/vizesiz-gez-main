@@ -28,6 +28,14 @@ export class CountryModalComponent implements OnInit {
     this.modalController.dismiss();
   }
 
+  toggleFavorite(country: Country) {
+    this.countryService.toggleFavorite(country.countryName);
+  }
+
+  isFavorite(countryName: string): boolean {
+    return this.countryService.isFavorite(countryName);
+  }
+
   fetchTouristImages() {
     const url = 'https://api.example.com/tourist-images'; // Replace with actual API endpoint
     this.http.get<string[]>(url).subscribe(images => {

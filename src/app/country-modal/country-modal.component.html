@@ -1,5 +1,18 @@
 <ion-header>
   <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button (click)="toggleFavorite(country); $event.stopPropagation()">
+        <ion-icon 
+          [name]="isFavorite(country.countryName) ? 'heart' : 'heart-outline'"
+          [color]="isFavorite(country.countryName) ? 'danger' : 'medium'"
+          class="heart-icon"
+          [class.liked]="isFavorite(country.countryName)"
+          style="font-size: 24px; --ionicon-stroke-width: 32px;">
+        </ion-icon>
+       
+      </ion-button>
+    </ion-buttons>
+
     <ion-title>{{ country.countryName }}</ion-title>
     <ion-buttons slot="end">
       <ion-button (click)="dismiss()">Kapat</ion-button>
@@ -14,6 +27,24 @@
       <h1>{{ country.capital.name }}</h1>
       <p>{{ country.capital.symbol }}</p>
     </ion-label>
+  </ion-item>
+
+  <!-- Favorite Toggle Button with Text -->
+  <ion-item lines="none" color="light">
+    <ion-button 
+      fill="clear"
+      (click)="toggleFavorite(country); $event.stopPropagation()">
+      <ion-icon 
+        [name]="isFavorite(country.countryName) ? 'heart' : 'heart-outline'"
+        [color]="isFavorite(country.countryName) ? 'danger' : 'medium'"
+        class="heart-icon"
+        [class.liked]="isFavorite(country.countryName)"
+        style="font-size: 24px; --ionicon-stroke-width: 32px;">
+      </ion-icon>
+      <ion-label>
+        {{ isFavorite(country.countryName) ? 'Favorilerden Çıkar' : 'Favorilere Ekle' }}
+      </ion-label>
+    </ion-button>
   </ion-item>
 
   <!-- Basic Info Card -->
