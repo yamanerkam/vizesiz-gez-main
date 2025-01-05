@@ -1522,606 +1522,625 @@ export class CountryService {
       }
       
     ,
-      {
-        "id": 21,
-        "countryName": "Lübnan",
-        "flag": "🇱🇧",
-        "currency": {
-          "code": "LBP",
-          "name": "Lebanese Pound",
-          "symbol": "ل.ل",
-          "rate": 1
-        },
-        "languages": ["Arapça", "Fransızca"],
-        "visaType": "Varışta Vize",
-        "maxStay": "90 gün",
-        "notes": "Beyrut Havalimanı'nda Türk vatandaşlarına ücretsiz vize (İsrail damgası olmamalı).",
-        "capital": {
-          "name": "Beyrut",
-          "symbol": "Beyrut'un güvercin kayalıkları ve sedir ağacı sembolü"
-        },
-        "touristicPlaces": [
-          {
-            "placeName": "Baldık Kayaları (Pigeon Rocks)",
-            "description": "Beyrut sahilinde ünlü doğal kaya oluşumları.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Pigeon_Rocks_in_Raouch%C3%A9%2C_Beirut.jpg"
-          },
-          {
-            "placeName": "Byblos Antik Kenti",
-            "description": "Dünyanın en eski sürekli yerleşimlerinden biri, Fenike kalıntıları.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/ByblosOldPort.jpg"
-          },
-          {
-            "placeName": "Jeita Grotto Mağaraları",
-            "description": "Muhteşem yeraltı kireçtaşı oluşumları, tekneyle gezilebiliyor.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Jeita_Grotto.jpg"
-          },
-          {
-            "placeName": "Baalbek",
-            "description": "Roma İmparatorluğu'ndan kalma devasa tapınak kalıntıları.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/BaalbekTempleOfBacchus.jpg"
-          }
-        ],
-        "importantNumbers": {
-          "police": "112",
-          "ambulance": "140",
-          "fire": "175",
-          "generalEmergency": "112"
-        },
-        "thingsToKnow": {
-          "warnings": "Ekonomik durum ve siyasi gerilimler nedeniyle güncel haberleri takip edin.",
-          "transportation": "Paylaşımlı dolmuşlar (servees), taksiler ve otobüsler. Trafik yoğun olabilir.",
-          "internetProviders": [
-            "Alfa",
-            "Touch"
-          ],
-          "turkishProvidersUsage": "Roaming mevcuttur, ancak pahalı olabilir. Kısa süreli gezilerde paket araştırmak faydalı."
-        },
-        "famousDishes": [
-          {
-            "name": "Mezze (humus, tabbouleh, baba ghanoush vb.)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Lebanese_mezze_2.jpg"
-          },
-          {
-            "name": "Kibbeh (bulgurlu et köftesi)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Kibbeh.jpg"
-          },
-          {
-            "name": "Manakish (baharatlı pide)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Manakish_with_Za%27atar.jpg"
-          },
-          {
-            "name": "Baklava çeşitleri",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Turkish_baklava.jpg"
-          }
-        ]
+    {
+      "id": 21,
+      "countryName": "Lübnan",
+      "flag": "🇱🇧",
+      "currency": {
+        "code": "LBP",
+        "name": "Lebanese Pound",
+        "symbol": "ل.ل",
+        "rate": 0.040
       },
-      {
-        "id": 22,
-        "countryName": "Makao",
-        "flag": "🇲🇴",
-        "currency": {
-          "code": "MOP",
-          "name": "Macanese Pataca",
-          "symbol": "MOP$",
-          "rate": 1
-        },
-        "languages": ["Portekizce", "Kantonca", "Mandarin Çincesi"],
-        "visaType": "Varışta Vize",
-        "maxStay": "30 gün",
-        "notes": "Güncel kurallar için yerel yetkililer veya havayoluna danışın.",
-        "capital": {
-          "name": "Makao (özel idari bölge, resmî 'başkent' yok)",
-          "symbol": "Lotus çiçeği sembolü, Makao bayrağının da simgesi"
-        },
-        "touristicPlaces": [
-          {
-            "placeName": "Senado Meydanı",
-            "description": "Portekiz etkisinin hissedildiği UNESCO Dünya Mirası tarihi meydan.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Senado_Square%2C_Macau.jpg"
-          },
-          {
-            "placeName": "Ruins of St. Paul's",
-            "description": "Makao'nun sembolik tarihi kilise kalıntıları.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Ruins_of_St._Paul%27s%2C_Macau.jpg"
-          },
-          {
-            "placeName": "Macau Tower",
-            "description": "Seyir terası, bungee jumping ve restoranlarıyla ünlü kule.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Macau_Tower_View.jpg"
-          },
-          {
-            "placeName": "Cotai Strip",
-            "description": "Dünyaca ünlü kumarhaneler ve lüks oteller bölgesi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Macau_Cotai_Skyline.jpg"
-          }
-        ],
-        "importantNumbers": {
-          "police": "999",
-          "ambulance": "999",
-          "fire": "999",
-          "generalEmergency": "999"
-        },
-        "thingsToKnow": {
-          "warnings": "Yasal yaş sınırlarına ve kumar kurallarına dikkat edin.",
-          "transportation": "Otobüs ve taksi yaygın. Kumarhanelerin ücretsiz shuttle hizmetleri de var.",
-          "internetProviders": [
-            "CTM",
-            "3 (Three)",
-            "China Telecom"
-          ],
-          "turkishProvidersUsage": "Hong Kong ve Makao'da roaming genelde farklı tarifelerle işler. Yerel SIM veya eSIM daha avantajlı olabilir."
-        },
-        "famousDishes": [
-          {
-            "name": "Pastel de Nata (Portekiz usulü tart)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Macau_Pastel_de_Nata.jpg"
-          },
-          {
-            "name": "Pork Chop Bun (domuz pirzola sandviçi)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Pork_Chop_Bun_Macau.jpg"
-          },
-          {
-            "name": "Minchi (kıyma ve patatesli yemek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Minchi_Macau_dish.jpg"
-          },
-          {
-            "name": "Bacalhau (Portekiz usulü tuzlu balık - çeşitli yorumları)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Bacalhau_a_bras.jpg"
-          }
-        ]
+      "languages": ["Arapça", "Fransızca"],
+      "visaType": "Varışta Vize",
+      "maxStay": "90 gün",
+      "notes": "Beyrut Havalimanı'nda Türk vatandaşlarına ücretsiz vize (İsrail damgası olmamalı).",
+      "capital": {
+        "name": "Beyrut",
+        "symbol": "Beyrut'un güvercin kayalıkları ve sedir ağacı sembolü"
       },
-      {
-        "id": 23,
-        "countryName": "Malezya",
-        "flag": "🇲🇾",
-        "currency": {
-          "code": "MYR",
-          "name": "Malaysian Ringgit",
-          "symbol": "RM",
-          "rate": 1
+      "touristicPlaces": [
+        {
+          "placeName": "Baldık Kayaları (Pigeon Rocks)",
+          "description": "Beyrut sahilinde ünlü doğal kaya oluşumları.",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.dYOjk0Mot1KFPfFYfixZ6QHaE6&pid=Api"
         },
-        "languages": ["Malayca", "İngilizce"],
-        "visaType": "Vize Gerekmiyor",
-        "maxStay": "90 gün",
-        "notes": "90 güne kadar olan kalışlarda vize gerekmiyor.",
-        "capital": {
-          "name": "Kuala Lumpur",
-          "symbol": "İkiz Kuleler (Petronas Towers) şehrin simgesi"
+        {
+          "placeName": "Byblos Antik Kenti",
+          "description": "Dünyanın en eski sürekli yerleşimlerinden biri, Fenike kalıntıları.",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.EP1TaF-j5COZVvsr9oIr7gHaEY&pid=Api"
         },
-        "touristicPlaces": [
-          {
-            "placeName": "Petronas İkiz Kuleleri",
-            "description": "Şehrin sembolü, seyir köprüsüyle ünlü gökdelenler.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Petronas_Twin_Towers_Malaysia.jpg"
-          },
-          {
-            "placeName": "Batu Mağaraları",
-            "description": "Hindu tapınakları ve devasa heykeliyle ünlü kaya mağaraları.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Batu_Caves_Malaysia.jpg"
-          },
-          {
-            "placeName": "Langkawi Adası",
-            "description": "Plajları ve duty-free alışverişiyle tanınan tatil bölgesi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Langkawi_Sky_Bridge.jpg"
-          },
-          {
-            "placeName": "Malakka Şehri",
-            "description": "Portekiz ve Hollanda izleri taşıyan UNESCO Dünya Mirası tarihi kent.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Melaka_river_with_traditional_shophouses.JPG"
-          }
-        ],
-        "importantNumbers": {
-          "police": "999",
-          "ambulance": "999",
-          "fire": "999",
-          "generalEmergency": "999"
+        {
+          "placeName": "Jeita Grotto Mağaraları",
+          "description": "Muhteşem yeraltı kireçtaşı oluşumları, tekneyle gezilebiliyor.",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.EXejmNsAeZ4uz0Sae5-QLAHaEK&pid=Api"
         },
-        "thingsToKnow": {
-          "warnings": "Sağanak yağmurlar ve muson dönemlerine dikkat. Mütevazı giyim önerilir (özellikle camilerde).",
-          "transportation": "Kuala Lumpur'da metro, monoray ve otobüs yaygın. Grab gibi uygulamalar ucuz ve pratik.",
-          "internetProviders": [
-            "Maxis",
-            "Celcom",
-            "Digi",
-            "U Mobile"
-          ],
-          "turkishProvidersUsage": "Roaming yapılabilir, ancak pahalı olabilir. Yerel SIM almak çok kolay ve uygun fiyatlı."
-        },
-        "famousDishes": [
-          {
-            "name": "Nasi Lemak (hindistan cevizli pilav, acı soslu kahvaltı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Nasi_Lemak.jpg"
-          },
-          {
-            "name": "Roti Canai (yassı ekmek ve körili sos)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Roti_canai_served_with_teh_tarikk.jpg"
-          },
-          {
-            "name": "Laksa (baharatlı çorba)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Curry_laksa_%28Malaysian_cuisine%29.jpg"
-          },
-          {
-            "name": "Satay (marineli ızgara et şiş)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Malaysian_Satay.jpg"
-          }
-        ]
+        {
+          "placeName": "Baalbek",
+          "description": "Roma İmparatorluğu'ndan kalma devasa tapınak kalıntıları.",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.tqzuLywAWODZ3KrLlVGj2AHaE8&pid=Api"
+        }
+      ],
+      "importantNumbers": {
+        "police": "112",
+        "ambulance": "140",
+        "fire": "175",
+        "generalEmergency": "112"
       },
-      {
-        "id": 24,
-        "countryName": "Maldivler",
-        "flag": "🇲🇻",
-        "currency": {
-          "code": "MVR",
-          "name": "Maldivian Rufiyaa",
-          "symbol": "ރ",
-          "rate": 1
-        },
-        "languages": ["Dhivehi"],
-        "visaType": "Varışta Vize",
-        "maxStay": "30 gün",
-        "notes": "Onaylı otel rezervasyonu ve yeterli maddi kaynak gerekli.",
-        "capital": {
-          "name": "Male",
-          "symbol": "Male için tipik simge, adalar ve turkuaz deniz görseli"
-        },
-        "touristicPlaces": [
-          {
-            "placeName": "Maafushi",
-            "description": "Bütçe dostu konaklama seçenekleri ve plajlarıyla ünlü yerel ada.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Maafushi_Island_Maldives_Aerial.jpg"
-          },
-          {
-            "placeName": "Hulhumalé",
-            "description": "Yeni yerleşim bölgesi, plaj ve kafeler. Male'ye feribotla yakın.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Hulhumale_Maldives.jpg"
-          },
-          {
-            "placeName": "Banana Reef",
-            "description": "Dünyaca ünlü dalış noktası, renkli mercanlar ve balıklar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Maldives_coral_reef.jpg"
-          },
-          {
-            "placeName": "Fulhadhoo",
-            "description": "Sessiz, el değmemiş beyaz kumlu plajlarıyla tanınan ada.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Fulhadhoo_Beach.jpg"
-          }
+      "thingsToKnow": {
+        "warnings": "Ekonomik durum ve siyasi gerilimler nedeniyle güncel haberleri takip edin.",
+        "transportation": "Paylaşımlı dolmuşlar (servees), taksiler ve otobüsler. Trafik yoğun olabilir.",
+        "internetProviders": [
+          "Alfa",
+          "Touch"
         ],
-        "importantNumbers": {
-          "police": "+960 333 2080",
-          "ambulance": "102",
-          "fire": "118",
-          "generalEmergency": "119"
-        },
-        "thingsToKnow": {
-          "warnings": "Her adada içki satışı olmayabilir (turist adaları dışında alkol yasak).",
-          "transportation": "Sürat tekneleri veya deniz uçakları adalar arası ulaşımı sağlar.",
-          "internetProviders": [
-            "Dhiraagu",
-            "Ooredoo"
-          ],
-          "turkishProvidersUsage": "Roaming çok pahalı olabilir. Çoğu tatil köyünde Wi-Fi mevcut. Yerel SIM alınabilir ama genelde tatil beldelerinde gerek kalmaz."
-        },
-        "famousDishes": [
-          {
-            "name": "Garudhiya (balık çorbası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Garudhiya_Maldives.jpg"
-          },
-          {
-            "name": "Mas Huni (rendelenmiş ton balığı, hindistan cevizi ve soğan)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Mas_huni_and_roshi%2C_Maldives.jpg"
-          },
-          {
-            "name": "Rihaakuru (balık ezmesi)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Rihakuru_%28traditional_Maldivian_brown_sauce%29.jpg"
-          },
-          {
-            "name": "Bis Keemiya (börek benzeri atıştırmalık)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Bis_keemiya_Maldives.jpg"
-          }
-        ]
+        "turkishProvidersUsage": "Roaming mevcuttur, ancak pahalı olabilir. Kısa süreli gezilerde paket araştırmak faydalı."
       },
-      {
-        "id": 25,
-        "countryName": "Moldova",
-        "flag": "🇲🇩",
-        "currency": {
-          "code": "MDL",
-          "name": "Moldovan Leu",
-          "symbol": "L",
-          "rate": 1
+      "famousDishes": [
+        {
+          "name": "Mezze (humus, tabbouleh, baba ghanoush vb.)",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.ecA3AIm_QMJNmMbXM7pQbwHaHa&pid=Api"
         },
-        "languages": ["Rumence"],
-        "visaType": "Vize Gerekmiyor",
-        "maxStay": "90 gün",
-        "notes": "180 günlük süre içinde 90 gün kalış.",
-        "capital": {
-          "name": "Kişinev (Chișinău)",
-          "symbol": "Şehir armasında kalkan ve üzüm asması"
+        {
+          "name": "Kibbeh (bulgurlu et köftesi)",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.erBSqGCiUqYcaOV8O6OgJAHaE8&pid=Api"
         },
-        "touristicPlaces": [
-          {
-            "placeName": "Orheiul Vechi",
-            "description": "Tarihi manastır kompleksi, kayaya oyulmuş kiliseler.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Orheiul_Vechi_Panorama.jpg"
-          },
-          {
-            "placeName": "Şarap Mahzenleri (Cricova, Mileștii Mici)",
-            "description": "Dünyanın en büyük şarap koleksiyonlarından bazılarına ev sahipliği yapar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Cricova_wine_cellars.jpg"
-          },
-          {
-            "placeName": "Kişinev Katedrali Parkı",
-            "description": "Merkezde yürüyüş ve dinlenme alanı, Katedrali ile ünlü.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ci%C8%99migiu_Park_in_Chi%C8%99in%C4%83u.jpg"
-          },
-          {
-            "placeName": "Tipova Manastırı",
-            "description": "Kayalıklar içine oyulmuş ortodoks manastır.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Tipova_monastery.jpg"
-          }
+        {
+          "name": "Manakish (baharatlı pide)",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.lPvvsL4uD1p3bk5V3oqilwHaFg&pid=Api"
+        },
+        {
+          "name": "Baklava çeşitleri",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP._lXeCJc_6qXv1ETuYVbPwgHaFA&pid=Api"
+        }
+      ]
+    }
+    
+    
+    ,
+    {
+      "id": 22,
+      "countryName": "Makao",
+      "flag": "🇲🇴",
+      "currency": {
+        "code": "MOP",
+        "name": "Macanese Pataca",
+        "symbol": "MOP$",
+        "rate": 4.3
+      },
+      "languages": ["Portekizce", "Kantonca", "Mandarin Çincesi"],
+      "visaType": "Varışta Vize",
+      "maxStay": "30 gün",
+      "notes": "Güncel kurallar için yerel yetkililer veya havayoluna danışın.",
+      "capital": {
+        "name": "Makao (özel idari bölge, resmî 'başkent' yok)",
+        "symbol": "Lotus çiçeği sembolü, Makao bayrağının da simgesi"
+      },
+      "touristicPlaces": [
+        {
+          "placeName": "Senado Meydanı",
+          "description": "Portekiz etkisinin hissedildiği UNESCO Dünya Mirası tarihi meydan.",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.a3tgkA4tUuU-4bSb-nBOpAHaFj&pid=Api"
+        },
+        {
+          "placeName": "Macau Tower",
+          "description": "Seyir terası, bungee jumping ve restoranlarıyla ünlü kule.",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.WrZZE8XmTEHpFTPAAX042QHaLH&pid=Api"
+        },
+      
+      ],
+      "importantNumbers": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999",
+        "generalEmergency": "999"
+      },
+      "thingsToKnow": {
+        "warnings": "Yasal yaş sınırlarına ve kumar kurallarına dikkat edin.",
+        "transportation": "Otobüs ve taksi yaygın. Kumarhanelerin ücretsiz shuttle hizmetleri de var.",
+        "internetProviders": [
+          "CTM",
+          "3 (Three)",
+          "China Telecom"
         ],
-        "importantNumbers": {
-          "police": "902",
-          "ambulance": "903",
-          "fire": "901",
-          "generalEmergency": "112"
-        },
-        "thingsToKnow": {
-          "warnings": "Turistik bölgeler güvenli, ancak yankesicilik olabileceği için dikkatli olun.",
-          "transportation": "Trolebüs, otobüs ve taksiler yaygın. Şehirlerarası minibüsler (marshrutka) mevcut.",
-          "internetProviders": [
-            "Moldcell",
-            "Orange Moldova",
-            "Unite"
-          ],
-          "turkishProvidersUsage": "Roaming kullanılabilir, ama yerel SIM daha uyguna gelebilir."
-        },
-        "famousDishes": [
-          {
-            "name": "Mămăligă (mısır unu lapası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Mamaliga.JPG"
-          },
-          {
-            "name": "Sarmale (lahana veya asma yaprağında dolma)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sarmale_romania.jpg"
-          },
-          {
-            "name": "Plăcintă (börek benzeri hamur işi)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Placinte_Branza_%C5%9Ei_Verdea%C8%9B%C4%83.JPG"
-          },
-          {
-            "name": "Zeamă (tavuk çorbası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Zeama_moldoveneasca.jpg"
-          }
-        ]
+        "turkishProvidersUsage": "Hong Kong ve Makao'da roaming genelde farklı tarifelerle işler. Yerel SIM veya eSIM daha avantajlı olabilir."
       },
-      {
-        "id": 26,
-        "countryName": "Moğolistan",
-        "flag": "🇲🇳",
-        "currency": {
-          "code": "MNT",
-          "name": "Mongolian Tögrög",
-          "symbol": "₮",
-          "rate": 1
+      "famousDishes": [
+        {
+          "name": "Pastel de Nata (Portekiz usulü tart)",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.02vj3B1Nr2JDQkE-vgmp5QHaE8&pid=Api"
         },
-        "languages": ["Moğolca", "Rusça"],
-        "visaType": "Vize Gerekmiyor",
-        "maxStay": "30 gün",
-        "notes": "30 günden uzun kalışlarda göçmenlik kaydı gerekli.",
-        "capital": {
-          "name": "Ulan Batur",
-          "symbol": "Cengiz Han heykeli ve bozkır simgesi"
+        {
+          "name": "Pork Chop Bun (domuz pirzola sandviçi)",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.RjnWZMY9yAGNuHyuyxgySAHaHa&pid=Api"
         },
-        "touristicPlaces": [
-          {
-            "placeName": "Gobi Çölü",
-            "description": "Eşsiz çöl manzaraları ve deve turlarıyla ünlü bölge.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gobi_Desert.jpg"
-          },
-          {
-            "placeName": "Terelj Milli Parkı",
-            "description": "Doğal kaya oluşumları ve çadır (ger) kampları.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Terelj_National_Park.jpg"
-          },
-          {
-            "placeName": "Ulan Batur – Cengiz Han Meydanı",
-            "description": "Şehrin ana meydanı, hükümet binaları ve Cengiz Han Anıtı.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Genghis_Khan_Square_%28Ulan_Bator%29_2016-09-30.JPG"
-          },
-          {
-            "placeName": "Khövsgöl Gölü",
-            "description": "'Mavi İnci' olarak anılan, temiz suları ve çevresindeki ormanlarıyla ünlü.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Khovsgol_Lake.jpg"
-          }
+        {
+          "name": "Minchi (kıyma ve patatesli yemek)",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.N5nMFWdvxYfLdkPwIpiuTQHaGS&pid=Api"
+        },
+        {
+          "name": "Bacalhau (Portekiz usulü tuzlu balık - çeşitli yorumları)",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.v-1Y0YWCAwafXn9pjVcnwQHaEV&pid=Api"
+        }
+      ]
+    }
+    ,
+    {
+      "id": 23,
+      "countryName": "Malezya",
+      "flag": "🇲🇾",
+      "currency": {
+        "code": "MYR",
+        "name": "Malaysian Ringgit",
+        "symbol": "RM",
+        "rate": 7.89
+      },
+      "languages": ["Malayca", "İngilizce"],
+      "visaType": "Vize Gerekmiyor",
+      "maxStay": "90 gün",
+      "notes": "90 güne kadar olan kalışlarda vize gerekmiyor.",
+      "capital": {
+        "name": "Kuala Lumpur",
+        "symbol": "İkiz Kuleler (Petronas Towers) şehrin simgesi"
+      },
+      "touristicPlaces": [
+        {
+          "placeName": "Petronas İkiz Kuleleri",
+          "description": "Şehrin sembolü, seyir köprüsüyle ünlü gökdelenler.",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.P6-fkD4Km2nb6p4vyv6GeQHaFQ&pid=Api"
+        },
+        {
+          "placeName": "Batu Mağaraları",
+          "description": "Hindu tapınakları ve devasa heykeliyle ünlü kaya mağaraları.",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.0WvspVgblH0JtSKABWtSFgHaEo&pid=Api"
+        },
+        {
+          "placeName": "Langkawi Adası",
+          "description": "Plajları ve duty-free alışverişiyle tanınan tatil bölgesi.",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.Xnlr7Q-ytKFdo_nHhZo6TQHaE5&pid=Api"
+        },
+        {
+          "placeName": "Malakka Şehri",
+          "description": "Portekiz ve Hollanda izleri taşıyan UNESCO Dünya Mirası tarihi kent.",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.pzQQPLzpPrsvc6ZP5HSi3gHaE8&pid=Api"
+        }
+      ],
+      "importantNumbers": {
+        "police": "999",
+        "ambulance": "999",
+        "fire": "999",
+        "generalEmergency": "999"
+      },
+      "thingsToKnow": {
+        "warnings": "Sağanak yağmurlar ve muson dönemlerine dikkat. Mütevazı giyim önerilir (özellikle camilerde).",
+        "transportation": "Kuala Lumpur'da metro, monoray ve otobüs yaygın. Grab gibi uygulamalar ucuz ve pratik.",
+        "internetProviders": [
+          "Maxis",
+          "Celcom",
+          "Digi",
+          "U Mobile"
         ],
-        "importantNumbers": {
-          "police": "102",
-          "ambulance": "103",
-          "fire": "101",
-          "generalEmergency": "105"
-        },
-        "thingsToKnow": {
-          "warnings": "Kışlar çok sert ve soğuk geçer. Seyahat planlaması yaparken iklimi göz önüne alın.",
-          "transportation": "Otobüs ve taksi var, ama kırsal bölgelerde ulaşım zorlukları olabilir.",
-          "internetProviders": [
-            "Mobicom",
-            "Unitel",
-            "G-Mobile",
-            "Skytel"
-          ],
-          "turkishProvidersUsage": "Roaming mümkün, ancak pahalı olabilir. Yerel SIM kırsal alanda da faydalı olabilir."
-        },
-        "famousDishes": [
-          {
-            "name": "Buuz (etli buharda pişmiş mantı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Buuz_NOMIN_restaurant.jpg"
-          },
-          {
-            "name": "Khuushuur (kızarmış etli hamur)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Khuushuur.jpg"
-          },
-          {
-            "name": "Boodog (içinde et pişirilen deri çuval yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Boodog_goat.jpg"
-          },
-          {
-            "name": "Airag (fermente kısrak sütü)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Mongolian_Airag.jpg"
-          }
-        ]
+        "turkishProvidersUsage": "Roaming yapılabilir, ancak pahalı olabilir. Yerel SIM almak çok kolay ve uygun fiyatlı."
       },
-      {
-        "id": 27,
-        "countryName": "Karadağ",
-        "flag": "🇲🇪",
-        "currency": {
-          "code": "EUR",
-          "name": "Euro",
-          "symbol": "€",
-          "rate": 1
+      "famousDishes": [
+        {
+          "name": "Nasi Lemak (hindistan cevizli pilav, acı soslu kahvaltı)",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.dgdgL9MsX9E225Zn_DSe5QHaFj&pid=Api"
         },
-        "languages": ["Karadağca", "Sırpça", "Boşnakça"],
-        "visaType": "Vize Gerekmiyor",
-        "maxStay": "90 gün",
-        "notes": "6 aylık dönemde 90 gün kalış hakkı.",
-        "capital": {
-          "name": "Podgorica",
-          "symbol": "Kentin armasında Morača Nehri ve dağ silueti"
+        {
+          "name": "Roti Canai (yassı ekmek ve körili sos)",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.9Zin3oJlO3ZZfSUf3dIl4QHaHa&pid=Api"
         },
-        "touristicPlaces": [
-          {
-            "placeName": "Kotor Eski Şehir",
-            "description": "UNESCO Dünya Mirası listesinde, Ortaçağ'dan kalma surlar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Kotor_062.jpg"
-          },
-          {
-            "placeName": "Budva",
-            "description": "Sahilleri ve gece hayatıyla ünlü turistik kıyı kenti.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Budva_Montenegro.jpg"
-          },
-          {
-            "placeName": "Sveti Stefan",
-            "description": "Lüks tatil köyüne dönüştürülmüş tarihi ada.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Sveti_Stefan_Montenegro.jpg"
-          },
-          {
-            "placeName": "Durmitor Milli Parkı",
-            "description": "Dağcılık, rafting ve kanyon gezileri için popüler destinasyon.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/DurmitorNationalPark.jpg"
-          }
+        {
+          "name": "Laksa (baharatlı çorba)",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.rE0tuLFufqUQ-2xsXjHtRgHaFy&pid=Api"
+        },
+        {
+          "name": "Satay (marineli ızgara et şiş)",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.HxBZ0fBKIDxX1eojIOKiqwHaFj&pid=Api"
+        }
+      ]
+    }
+    ,
+
+
+
+    {
+      "id": 24,
+      "countryName": "Maldivler",
+      "flag": "🇲🇻",
+      "currency": {
+        "code": "MVR",
+        "name": "Maldivian Rufiyaa",
+        "symbol": "ރ",
+        "rate": 15.42
+      },
+      "languages": ["Dhivehi"],
+      "visaType": "Varışta Vize",
+      "maxStay": "30 gün",
+      "notes": "Onaylı otel rezervasyonu ve yeterli maddi kaynak gerekli.",
+      "capital": {
+        "name": "Male",
+        "symbol": "Male için tipik simge, adalar ve turkuaz deniz görseli"
+      },
+      "touristicPlaces": [
+        {
+          "placeName": "Maafushi",
+          "description": "Bütçe dostu konaklama seçenekleri ve plajlarıyla ünlü yerel ada.",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.nsKZ4KcfmNYM7TifnyRMyQHaHa&pid=Api"
+        },
+        {
+          "placeName": "Hulhumalé",
+          "description": "Yeni yerleşim bölgesi, plaj ve kafeler. Male'ye feribotla yakın.",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.MTEBBfhrCghNAIosMAcPJQHaE8&pid=Api"
+        },
+        {
+          "placeName": "Banana Reef",
+          "description": "Dünyaca ünlü dalış noktası, renkli mercanlar ve balıklar.",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.bqMSwtt53ML4bngPpXGYVAHaFj&pid=Api"
+        },
+        {
+          "placeName": "Fulhadhoo",
+          "description": "Sessiz, el değmemiş beyaz kumlu plajlarıyla tanınan ada.",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.NpB9k0sSur93rgVOQKjGMwHaE7&pid=Api"
+        }
+      ],
+      "importantNumbers": {
+        "police": "+960 333 2080",
+        "ambulance": "102",
+        "fire": "118",
+        "generalEmergency": "119"
+      },
+      "thingsToKnow": {
+        "warnings": "Her adada içki satışı olmayabilir (turist adaları dışında alkol yasak).",
+        "transportation": "Sürat tekneleri veya deniz uçakları adalar arası ulaşımı sağlar.",
+        "internetProviders": [
+          "Dhiraagu",
+          "Ooredoo"
         ],
-        "importantNumbers": {
-          "police": "122",
-          "ambulance": "124",
-          "fire": "123",
-          "generalEmergency": "112"
-        },
-        "thingsToKnow": {
-          "warnings": "Turistik bölgelerde fiyatlar yüksek olabilir. Yaz sezonu kalabalık geçer.",
-          "transportation": "Otobüs ağı iyi, trenler kısıtlı bölgede var. Araç kiralama da yaygın.",
-          "internetProviders": [
-            "T-Mobile",
-            "M:tel",
-            "Telekom"
-          ],
-          "turkishProvidersUsage": "Roaming kullanılabilir. Kısa seyahatlerde paket almak veya yerel SIM tercih edilebilir."
-        },
-        "famousDishes": [
-          {
-            "name": "Ćevapi (köfte benzeri ızgara et)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/%C4%86evapi_iz_%C4%86uprije.jpg"
-          },
-          {
-            "name": "Kacamak (mısır unu lapa)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kacamak_Montenegro.jpg"
-          },
-          {
-            "name": "Njeguški Pršut (kurutulmuş et)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Njeguski_prsut_1.jpg"
-          },
-          {
-            "name": "Burek (börek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Burek_traditional.JPG"
-          }
-        ]
+        "turkishProvidersUsage": "Roaming çok pahalı olabilir. Çoğu tatil köyünde Wi-Fi mevcut. Yerel SIM alınabilir ama genelde tatil beldelerinde gerek kalmaz."
       },
-      {
-        "id": 28,
-        "countryName": "Fas",
-        "flag": "🇲🇦",
-        "currency": {
-          "code": "MAD",
-          "name": "Moroccan Dirham",
-          "symbol": "د.م.",
-          "rate": 1
+      "famousDishes": [
+        {
+          "name": "Garudhiya (balık çorbası)",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.a6D1NYS0B-BOgFDY1_EdFQHaFF&pid=Api"
         },
-        "languages": ["Arapça", "Fransızca"],
-        "visaType": "Vize Gerekmiyor",
-        "maxStay": "90 gün",
-        "notes": "Pasaport en az 6 ay geçerli olmalı.",
-        "capital": {
-          "name": "Rabat",
-          "symbol": "Kentin armasında kale ve kraliyet sembolleri"
+        {
+          "name": "Mas Huni (rendelenmiş ton balığı, hindistan cevizi ve soğan)",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.5DwIsmiVtCbHRCMQWKf_PgHaFj&pid=Api"
         },
-        "touristicPlaces": [
-          {
-            "placeName": "Marakeş – Jemaa el-Fnaa",
-            "description": "Pazar alanı, yılan oynatıcıları ve sokak lezzetleri.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Jemaa_el-Fna_in_Marrakech.jpg"
-          },
-          {
-            "placeName": "Fes El Bali",
-            "description": "Dünyanın en eski yaya şehirlerinden biri, tarihi medina.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Medina_of_Fes.jpg"
-          },
-          {
-            "placeName": "Şafşavan (Chefchaouen)",
-            "description": "Mavi boyalı evleriyle ünlü dağ kasabası.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Blue_city_Chefchaouen.jpg"
-          },
-          {
-            "placeName": "Sahara Çölü (Merzouga)",
-            "description": "Çöl kampları, kum tepelerinde deve turları.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Dunes_de_Merzouga_au_Maroc.jpg"
-          }
+        {
+          "name": "Rihaakuru (balık ezmesi)",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.QeVeNF04IXV6Cv3QnZdGRAHaE6&pid=Api"
+        },
+        {
+          "name": "Bis Keemiya (börek benzeri atıştırmalık)",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.GNshhL_6iQHAhstp5UWTQAHaE2&pid=Api"
+        }
+      ]
+    }
+    
+    ,
+
+      
+    {
+      "id": 25,
+      "countryName": "Moldova",
+      "flag": "🇲🇩",
+      "currency": {
+        "code": "MDL",
+        "name": "Moldovan Leu",
+        "symbol": "L",
+        "rate": 1.9173
+      },
+      "languages": ["Rumence"],
+      "visaType": "Vize Gerekmiyor",
+      "maxStay": "90 gün",
+      "notes": "180 günlük süre içinde 90 gün kalış.",
+      "capital": {
+        "name": "Kişinev (Chișinău)",
+        "symbol": "Şehir armasında kalkan ve üzüm asması"
+      },
+      "touristicPlaces": [
+        {
+          "placeName": "Orheiul Vechi",
+          "description": "Tarihi manastır kompleksi, kayaya oyulmuş kiliseler.",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.X3LuXtyNQYCg1mOMZTClWQHaFj&pid=Api"
+        },
+        {
+          "placeName": "Şarap Mahzenleri (Cricova, Mileștii Mici)",
+          "description": "Dünyanın en büyük şarap koleksiyonlarından bazılarına ev sahipliği yapar.",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.AZlG-T88Kik1Wzx85cutLAHaEK&pid=Api"
+        },
+        {
+          "placeName": "Kişinev Katedrali Parkı",
+          "description": "Merkezde yürüyüş ve dinlenme alanı, Katedrali ile ünlü.",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.LN_5tQvVjZ5VJDU3AzrK4wHaE8&pid=Api"
+        },
+        {
+          "placeName": "Tipova Manastırı",
+          "description": "Kayalıklar içine oyulmuş ortodoks manastır.",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.v4C-1vWRvL-7Q6JPXHRukAHaFU&pid=Api"
+        }
+      ],
+      "importantNumbers": {
+        "police": "902",
+        "ambulance": "903",
+        "fire": "901",
+        "generalEmergency": "112"
+      },
+      "thingsToKnow": {
+        "warnings": "Turistik bölgeler güvenli, ancak yankesicilik olabileceği için dikkatli olun.",
+        "transportation": "Trolebüs, otobüs ve taksiler yaygın. Şehirlerarası minibüsler (marshrutka) mevcut.",
+        "internetProviders": [
+          "Moldcell",
+          "Orange Moldova",
+          "Unite"
         ],
-        "importantNumbers": {
-          "police": "190",
-          "ambulance": "150",
-          "fire": "150",
-          "generalEmergency": "190/112"
-        },
-        "thingsToKnow": {
-          "warnings": "Ticaret ve pazarlıklarda fiyatları mutlaka önceden konuşun.",
-          "transportation": "Tren, otobüs ve grand taxi sistemi var. Şehirlerarası tren seyahati rahattır.",
-          "internetProviders": [
-            "Maroc Telecom",
-            "Orange Maroc",
-            "Inwi"
-          ],
-          "turkishProvidersUsage": "Roaming var, fakat pahalı olabilir. Yerel SIM almak mantıklı ve kolay."
-        },
-        "famousDishes": [
-          {
-            "name": "Tajine (sebze veya et yahnisi)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Moroccan_Tajine.jpg"
-          },
-          {
-            "name": "Couscous (sebze veya etli irmik)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Moroccan_Couscous.jpg"
-          },
-          {
-            "name": "Harira (geleneksel çorba)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Harira_with_dates.jpg"
-          },
-          {
-            "name": "Pastilla (tatlı-tuzlu börek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Bastella.jpg"
-          }
-        ]
+        "turkishProvidersUsage": "Roaming kullanılabilir, ama yerel SIM daha uyguna gelebilir."
       },
+      "famousDishes": [
+        {
+          "name": "Mămăligă (mısır unu lapası)",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.nU0sVBSdyMzDXdtnkF2ppAHaE8&pid=Api"
+        },
+        {
+          "name": "Sarmale (lahana veya asma yaprağında dolma)",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.O1T5yK-8ZpcZypXXP2cjlgHaEK&pid=Api"
+        },
+        {
+          "name": "Plăcintă (börek benzeri hamur işi)",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.pdwxZvnK7OTn3K6EdPgsMgHaE8&pid=Api"
+        },
+        {
+          "name": "Zeamă (tavuk çorbası)",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.CWEFG_Ig7nFB5P5tRvLoYQHaE8&pid=Api"
+        }
+      ]
+    }
+    ,
+
+
+
+
+    {
+      "id": 26,
+      "countryName": "Moğolistan",
+      "flag": "🇲🇳",
+      "currency": {
+        "code": "MNT",
+        "name": "Mongolian Tögrög",
+        "symbol": "₮",
+        "rate": 0.01017
+      },
+      "languages": ["Moğolca", "Rusça"],
+      "visaType": "Vize Gerekmiyor",
+      "maxStay": "30 gün",
+      "notes": "30 günden uzun kalışlarda göçmenlik kaydı gerekli.",
+      "capital": {
+        "name": "Ulan Batur",
+        "symbol": "Cengiz Han heykeli ve bozkır simgesi"
+      },
+      "touristicPlaces": [
+        {
+          "placeName": "Gobi Çölü",
+          "description": "Eşsiz çöl manzaraları ve deve turlarıyla ünlü bölge.",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.Hd_uywvTtmYQgNlPaff64gHaEe&pid=Api"
+        },
+        {
+          "placeName": "Terelj Milli Parkı",
+          "description": "Doğal kaya oluşumları ve çadır (ger) kampları.",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.lvi32mrzkpjLYtfUi2PoLwHaEm&pid=Api"
+        },
+        {
+          "placeName": "Ulan Batur – Cengiz Han Meydanı",
+          "description": "Şehrin ana meydanı, hükümet binaları ve Cengiz Han Anıtı.",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.OGmkA1zGEvgF8duRzEn4eQHaE6&pid=Api"
+        },
+        {
+          "placeName": "Khövsgöl Gölü",
+          "description": "'Mavi İnci' olarak anılan, temiz suları ve çevresindeki ormanlarıyla ünlü.",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.sN2rC1qMMxH_RNJGDalb4gHaD8&pid=Api"
+        }
+      ],
+      "importantNumbers": {
+        "police": "102",
+        "ambulance": "103",
+        "fire": "101",
+        "generalEmergency": "105"
+      },
+      "thingsToKnow": {
+        "warnings": "Kışlar çok sert ve soğuk geçer. Seyahat planlaması yaparken iklimi göz önüne alın.",
+        "transportation": "Otobüs ve taksi var, ama kırsal bölgelerde ulaşım zorlukları olabilir.",
+        "internetProviders": [
+          "Mobicom",
+          "Unitel",
+          "G-Mobile",
+          "Skytel"
+        ],
+        "turkishProvidersUsage": "Roaming mümkün, ancak pahalı olabilir. Yerel SIM kırsal alanda da faydalı olabilir."
+      },
+      "famousDishes": [
+        {
+          "name": "Buuz (etli buharda pişmiş mantı)",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.HoVIECkKkFVT8HMewEa-jwHaE8&pid=Api"
+        },
+        {
+          "name": "Khuushuur (kızarmış etli hamur)",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.GEuPENivLzRuPn3pPE5uNgHaEK&pid=Api"
+        },
+        {
+          "name": "Boodog (içinde et pişirilen deri çuval yemeği)",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.YuqZDSkopJHhTn26Xebl1QHaEW&pid=Api"
+        },
+        {
+          "name": "Airag (fermente kısrak sütü)",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.itTvz58oIcfkpx3ZPN3tNAHaEN&pid=Api"
+        }
+      ]
+    }
+    ,
+
+
+
+    {
+      "id": 27,
+      "countryName": "Karadağ",
+      "flag": "🇲🇪",
+      "currency": {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "rate": 35.73
+      },
+      "languages": ["Karadağca", "Sırpça", "Boşnakça"],
+      "visaType": "Vize Gerekmiyor",
+      "maxStay": "90 gün",
+      "notes": "6 aylık dönemde 90 gün kalış hakkı.",
+      "capital": {
+        "name": "Podgorica",
+        "symbol": "Kentin armasında Moraça Nehri ve dağ silueti"
+      },
+      "touristicPlaces": [
+        {
+          "placeName": "Kotor Eski Şehir",
+          "description": "UNESCO Dünya Mirası listesinde, Ortaçağ'dan kalma surlar.",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP._EK3mUS-PPcT0W5u_kxheAHaIh&w=474&h=474&c=7"
+        },
+        {
+          "placeName": "Budva",
+          "description": "Sahilleri ve gece hayatıyla ünlü turistik kıyı kenti.",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.9HhRj1BuIhOgnGKhgehZbQHaE7&w=315&h=315&c=7"
+        },
+        {
+          "placeName": "Sveti Stefan",
+          "description": "Lüks tatil köyünü dönüştürülmüş tarihi ada.",
+          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.83uIICwSve_EiLaMmOpmdQHaE8&w=316&h=316&c=7"
+        },
+        {
+          "placeName": "Durmitor Milli Parkı",
+          "description": "Dağcılık, rafting ve kanyon gezileri için popüler destinasyon.",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.LU9tMZB9zYnl7R77QHYaFAHaE7&w=315&h=315&c=7"
+        }
+      ],
+      "importantNumbers": {
+        "police": "122",
+        "ambulance": "124",
+        "fire": "123",
+        "generalEmergency": "112"
+      },
+      "thingsToKnow": {
+        "warnings": "Turistik bölgelerde fiyatlar yüksek olabilir. Yaz sezonu kalabalık geçer.",
+        "transportation": "Otobüs ağı iyi, trenler kısıtlı bölgede var. Araç kiralama da yaygın.",
+        "internetProviders": [
+          "T-Mobile",
+          "M:tel",
+          "Telekom"
+        ],
+        "turkishProvidersUsage": "Roaming kullanılabilir. Kısa seyahatlerde paket almak veya yerel SIM tercih edilebilir."
+      },
+      "famousDishes": [
+        {
+          "name": "Ćevapi (köfte benzeri ızgara et)",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.w3kbxfxno2cXuVPqEkvbKQHaE7&pid=Api"
+        },
+        {
+          "name": "Kacamak (mısır unu lapa)",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.evzr-Kat7cLxd86u1gZuJwHaDO&pid=Api"
+        },
+        {
+          "name": "Njeguški Pršut (kurutulmuş et)",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.dHwTDaU9gQ1xFv49XJb2AAHaEc&pid=Api"
+        },
+        {
+          "name": "Burek (börek)",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.w8BAarTzspLuCXZE1d0VYgHaE7&pid=Api"
+        }
+      ]
+    }
+    ,
+
+
+
+    {
+      "id": 28,
+      "countryName": "Fas",
+      "flag": "🇲🇦",
+      "currency": {
+        "code": "MAD",
+        "name": "Moroccan Dirham",
+        "symbol": "د.م.",
+        "rate": 3.49
+      },
+      "languages": ["Arapça", "Fransızca"],
+      "visaType": "Vize Gerekmiyor",
+      "maxStay": "90 gün",
+      "notes": "Pasaport en az 6 ay geçerli olmalı.",
+      "capital": {
+        "name": "Rabat",
+        "symbol": "Kentin armasında kale ve kraliyet sembolleri"
+      },
+      "touristicPlaces": [
+        {
+          "placeName": "Marakeş – Jemaa el-Fnaa",
+          "description": "Pazar alanı, yılan oynatıcıları ve sokak lezzetleri.",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.iXDJ2ex389hT2_BNq_fW7AHaE7&pid=Api"
+        },
+        {
+          "placeName": "Fes El Bali",
+          "description": "Dünyanın en eski yaya şehirlerinden biri, tarihi medina.",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.q7aW9PYVLa7CU8AlKal-pwHaE8&pid=Api"
+        },
+        {
+          "placeName": "Şafşavan (Chefchaouen)",
+          "description": "Mavi boyalı evleriyle ünlü dağ kasabası.",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.omrYt6gC6dokukim6fG_iwHaE9&pid=Api"
+        },
+        {
+          "placeName": "Sahara Çölü (Merzouga)",
+          "description": "Çöl kampları, kum tepelerinde deve turları.",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.2YkYU-YHIVxPy58RHqyCzgHaLJ&pid=Api"
+        }
+      ],
+      "importantNumbers": {
+        "police": "190",
+        "ambulance": "150",
+        "fire": "150",
+        "generalEmergency": "190/112"
+      },
+      "thingsToKnow": {
+        "warnings": "Ticaret ve pazarlıklarda fiyatları mutlaka önceden konuşun.",
+        "transportation": "Tren, otobüs ve grand taxi sistemi var. Şehirlerarası tren seyahati rahattır.",
+        "internetProviders": [
+          "Maroc Telecom",
+          "Orange Maroc",
+          "Inwi"
+        ],
+        "turkishProvidersUsage": "Roaming var, fakat pahalı olabilir. Yerel SIM almak mantıklı ve kolay."
+      },
+      "famousDishes": [
+        {
+          "name": "Tajine (sebze veya et yahnisi)",
+          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.Z8y4E2mJ6W1ZZkcOifBHBAHaE8&pid=Api"
+        },
+        {
+          "name": "Couscous (sebze veya etli irmik)",
+          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.L-PxaJlLn-h6HxiahIUhZAHaEK&pid=Api"
+        },
+        {
+          "name": "Harira (geleneksel çorba)",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.-h7sPbvU-Xl3pM9l6C-v1QHaE8&pid=Api"
+        },
+        {
+          "name": "Pastilla (tatlı-tuzlu börek)",
+          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.9g5sU3AlQY-JEn7R8hSvZAHaKX&pid=Api"
+        }
+      ]
+    }
+    ,
+
+
       {
         "id": 29,
         "countryName": "Nepal",
@@ -2140,28 +2159,28 @@ export class CountryService {
           "name": "Kathmandu",
           "symbol": "Kathmandu Vadisi, tapınak ve dağ silueti sembolleri"
         },
-        "touristicPlaces": [
-          {
-            "placeName": "Kathmandu Durbar Meydanı",
-            "description": "UNESCO Mirası, kraliyet sarayları ve tarihi tapınaklar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Kathmandu_Durbar_Square.jpg"
-          },
-          {
-            "placeName": "Pokhara",
-            "description": "Göl manzarası, Himalaya zirveleri ve doğa sporları merkezi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pokhara_Phewa_Lake_View.jpg"
-          },
-          {
-            "placeName": "Chitwan Milli Parkı",
-            "description": "Gergedan ve Bengal kaplanı gibi vahşi yaşamı gözlemleme imkânı.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Chitwan_National_Park.jpg"
-          },
-          {
-            "placeName": "Everest Bölgesi (Khumbu)",
-            "description": "Dünyanın en yüksek zirvesine açılan yürüyüş rotaları.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg"
-          }
-        ],
+       "touristicPlaces": [
+    {
+      "placeName": "Kathmandu Durbar Meydanı",
+      "description": "UNESCO Mirası, kraliyet sarayları ve tarihi tapınaklar.",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.wueAphLAqlhYIHd1NT9sHAHaE7&pid=Api"
+    },
+    {
+      "placeName": "Pokhara",
+      "description": "Göl manzarası, Himalaya zirveleri ve doğa sporları merkezi.",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.Mu-Toq43bIYQmB7UfZo0ZAHaEK&pid=Api"
+    },
+    {
+      "placeName": "Chitwan Milli Parkı",
+      "description": "Gergedan ve Bengal kaplanı gibi vahşi yaşamı gözlemleme imkânı.",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.2Bwr0Y1Ia4nuVuRw81XMuwHaFC&pid=Api"
+    },
+    {
+      "placeName": "Everest Bölgesi (Khumbu)",
+      "description": "Dünyanın en yüksek zirvesine açılan yürüyüş rotaları.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.K7_UH0jXsKhnkJK9U4QofgHaFJ&pid=Api"
+    }
+  ],
         "importantNumbers": {
           "police": "100",
           "ambulance": "102",
@@ -2177,25 +2196,27 @@ export class CountryService {
           ],
           "turkishProvidersUsage": "Roaming genelde mevcut ancak pahalı olabilir. Yerel SIM ise ucuz ve yaygın."
         },
-        "famousDishes": [
-          {
-            "name": "Dal Bhat (mercimek çorbası ve pirinç)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dal_Bhat_in_Nepal.JPG"
-          },
-          {
-            "name": "Momo (Nepal usulü mantı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Momo_in_Nepal.jpg"
-          },
-          {
-            "name": "Newari Khaja Set (çeşitli küçük tabaklar)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Newari_khaja_in_Kathmandu.jpg"
-          },
-          {
-            "name": "Choila (baharatlı et yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Newari_dish_Choila.jpg"
-          }
-        ]
+       "famousDishes": [
+    {
+      "name": "Dal Bhat (mercimek çorbası ve pirinç)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.0pcR8lMMIpwleJyLDE0fWwHaFj&pid=Api"
+    },
+    {
+      "name": "Momo (Nepal usulü mantı)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.5XjFlBCejpmJyz7PZoNXCAHaF7&pid=Api"
+    },
+    {
+      "name": "Newari Khaja Set (çeşitli küçük tabaklar)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.l8xjpvDKroUGBnwS8qo_zQHaKB&pid=Api"
+    },
+    {
+      "name": "Choila (baharatlı et yemeği)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.fMBiWV3XltWqC2iHnGXH5AHaHa&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 30,
         "countryName": "Nikaragua",
@@ -2218,22 +2239,22 @@ export class CountryService {
           {
             "placeName": "Granada",
             "description": "Kolonyal mimarisi ve Cocibolca Gölü üzerindeki adacıklarıyla ünlü.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Granada_Central_Park%2C_Nicaragua.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.5wAg5Z5kxQ5TAcCbDoxVyQHaFj&pid=Api"
           },
           {
             "placeName": "Ometepe Adası",
             "description": "İki yanardağ tarafından şekillendirilmiş tatlı su adası.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/OmetepeConcepcion.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.rhvBrhdCZBRoiyJP2wJEZwHaEK&pid=Api"
           },
           {
             "placeName": "León",
             "description": "Tarihi katedrali ve devrim müzeleriyle ünlü kültür şehri.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Catedral_de_Le%C3%B3n%2C_Nicaragua.jpg"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.eg1HcEz5cLr9mvgpPhToXAHaFx&pid=Api"
           },
           {
             "placeName": "Masaya Yanardağı",
             "description": "Aktif krateri gözlemleme imkânı sunan ulusal park.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Masaya_Volcano.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.gjcKd_cmYhnwMk2jpOBJdgHaEp&pid=Api"
           }
         ],
         "importantNumbers": {
@@ -2252,24 +2273,26 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming mevcut, ama pahalı olabilir. Yerel SIM edinmek mümkün."
         },
         "famousDishes": [
-          {
-            "name": "Gallo Pinto (fasulye ve pirinç karışımı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Gallo_Pinto.jpg"
-          },
-          {
-            "name": "Nacatamal (mısır hamurlu ve etli yaprak dolması)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Nacatamal.jpg"
-          },
-          {
-            "name": "Vigorón (lahana salatası, kızarmış domuz derisi, yuca)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Vigor%C3%B3n_%281%29.jpg"
-          },
-          {
-            "name": "Quesillo (peynirli tortilla)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Quesillo_Nicarag%C3%BCense.jpg"
-          }
-        ]
+    {
+      "name": "Gallo Pinto (fasulye ve pirinç karışımı)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.clytevbab2VRkvumVBgN5AHaE7&pid=Api"
+    },
+    {
+      "name": "Nacatamal (mısır hamurlu ve etli yaprak dolması)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.AIg_4L-w0SDcz-_AEe3OmQHaDh&pid=Api"
+    },
+    {
+      "name": "Vigorón (lahana salatası, kızarmış domuz derisi, yuca)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.2772A6-Nmt-q-kguuWLPEQHaFR&pid=Api"
+    },
+    {
+      "name": "Quesillo (peynirli tortilla)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.K1lnXvSyRDC7r-clrFVOuQHaLG&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 31,
         "countryName": "Kuzey Makedonya",
@@ -2289,27 +2312,27 @@ export class CountryService {
           "symbol": "Taş Köprü ve Matka Kanyonu sembolü"
         },
         "touristicPlaces": [
-          {
-            "placeName": "Üsküp – Taş Köprü",
-            "description": "Vardar Nehri üzerindeki tarihi Osmanlı köprüsü.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Stone_Bridge_in_Skopje.jpg"
-          },
-          {
-            "placeName": "Ohri Gölü",
-            "description": "UNESCO korumasındaki göl, tarihi kiliseler ve mükemmel doğa.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Ohrid_Gj.jpg"
-          },
-          {
-            "placeName": "Mavrovo Milli Parkı",
-            "description": "Dağcılık, kış sporları ve doğal güzellikleriyle ünlü.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Mavrovo_national_park.jpg"
-          },
-          {
-            "placeName": "Matka Kanyonu",
-            "description": "Tekne turları, mağaralar ve doğa yürüyüşü fırsatı.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Matka_Canyon%2C_Macedonia_%2824164829494%29.jpg"
-          }
-        ],
+    {
+      "placeName": "Üsküp – Taş Köprü",
+      "description": "Vardar Nehri üzerindeki tarihi Osmanlı köprüsü.",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.QdLR-cT0U65Z_dfXpQcNDgHaEo&pid=Api"
+    },
+    {
+      "placeName": "Ohri Gölü",
+      "description": "UNESCO korumasındaki göl, tarihi kiliseler ve mükemmel doğa.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.iWBLMl3p9i5KAsb-OvkZQwHaEo&pid=Api"
+    },
+    {
+      "placeName": "Mavrovo Milli Parkı",
+      "description": "Dağcılık, kış sporları ve doğal güzellikleriyle ünlü.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.IBtI2xlU4j3moUYahKLLkwHaFi&pid=Api"
+    },
+    {
+      "placeName": "Matka Kanyonu",
+      "description": "Tekne turları, mağaralar ve doğa yürüyüşü fırsatı.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.Jcx0BFrC9LK-67zEbAFCTAHaDt&pid=Api"
+    }
+  ],
         "importantNumbers": {
           "police": "192",
           "ambulance": "194",
@@ -2329,22 +2352,32 @@ export class CountryService {
         "famousDishes": [
           {
             "name": "Tavče Gravče (fırınlanmış fasulye yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tavche_Gravche.jpg"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.M30more8tgPMwP7CJjCk8gHaE8&pid=Api"
           },
           {
             "name": "Shopska Salata (Balkan salatası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Shopska_salata_Macedonia.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.uNNPd_gxaRloD2pVJ6T41QHaHM&pid=Api"
           },
           {
             "name": "Ajvar (kırmızı biber sosu)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Ajvar_HomeMade.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.VGBX_uAJ1BvTiVjzUfu1cwHaHa&pid=Api"
           },
           {
             "name": "Burek (börek çeşitleri)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Burek_with_curd.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.w8BAarTzspLuCXZE1d0VYgHaE7&pid=Api"
           }
         ]
       },
+
+
+
+
+
+
+
+
+
+      
       {
         "id": 32,
         "countryName": "Kuzey Kıbrıs (KKTC)",
@@ -2365,24 +2398,19 @@ export class CountryService {
         },
         "touristicPlaces": [
           {
-            "placeName": "Girne Kalesi",
-            "description": "Liman manzaralı tarihi kale ve batık gemi müzesi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Girne_Kalesi_2017.jpg"
-          },
-          {
             "placeName": "Bellapais Manastırı",
             "description": "Gotik mimarisiyle ünlü tarihi manastır, Girne yakınlarında.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bellapais_Abbey.JPG"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.5RQWoBRwSWhQ6ZUWuHGLgwHaE7&w=315&h=315&c=7"
           },
           {
             "placeName": "Kapalı Maraş (Varosha)",
             "description": "Terk edilmiş sahil kenti, kısmen ziyarete açılmıştır.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Varosha_Famagusta.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.S0o0O2WATR5m5SlP_1r_-AHaE9&w=317&h=317&c=7"
           },
           {
             "placeName": "Karpaz Yarımadası",
             "description": "Bakir plajlar ve eşekleriyle ünlü doğal güzellik.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Karpas_Beach.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.6qUGwgrMnJYKROy4Q8xyhAHaEK&w=266&h=266&c=7"
           }
         ],
         "importantNumbers": {
@@ -2401,24 +2429,30 @@ export class CountryService {
           "turkishProvidersUsage": "Türk hatları Kuzey Kıbrıs'ta da çalışır; genelde yurt içi tarifesi geçerli (operatör sözleşmesine göre değişir)."
         },
         "famousDishes": [
-          {
-            "name": "Şeftali Kebabı",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/%C5%9Eeftali_Kebab%C4%B1_Cyprus.jpg"
-          },
-          {
-            "name": "Hellim (Halloumi) Peyniri",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Halloumi_cheese.jpg"
-          },
-          {
-            "name": "Kıbrıs Köftesi",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Cyprus_Kofta.jpg"
-          },
-          {
-            "name": "Pilavuna (çörek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Pilavuna_Northern_Cyprus.jpg"
-          }
-        ]
+    {
+      "name": "Şeftali Kebabı",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.fMKpjA-n4OEj8bLsywOA1QHaFj&pid=Api"
+    },
+    {
+      "name": "Hellim (Halloumi) Peyniri",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.xlY-Kkpl0yqUq7_RodbFuAHaHa&pid=Api"
+    },
+    {
+      "name": "Kıbrıs Köftesi",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.qcyKTWdSYM6lJSj7n5TangHaEK&pid=Api"
+    },
+    {
+      "name": "Pilavuna (Çörek)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.uxR-zExGxtmdgQOQNHpRJwHaJQ&pid=Api"
+    },
+    {
+      "name": "Kolakas Yemeği",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.IYM4u3qg-heKyq5p37lUlAHaEK&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 33,
         "countryName": "Umman",
@@ -2441,22 +2475,22 @@ export class CountryService {
           {
             "placeName": "Sultan Qaboos Büyük Camii",
             "description": "Maskat'ın simgesi, muhteşem İslam mimarisi ve halısıyla ünlü.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sultan_Qaboos_Grand_Mosque.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.ZJOvtNf7DKTtHTzVBH0gWwHaHa&pid=Api"
           },
           {
             "placeName": "Mutrah Çarşısı",
             "description": "Tarihi pazar yeri, tütsü ve yerel hediyelikler bulabilirsiniz.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Mutrah_Souq_in_Muscat.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.jTcCZ6yeOtlWeOewL41ExQHaEK&pid=Api"
           },
           {
             "placeName": "Wadi Shab",
             "description": "Doğal yüzme havuzları, yürüyüş rotaları ve şelaleler.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Wadi_shab_in_Oman.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.dmyIowrE-UHDG6tVdVtQswHaKX&pid=Api"
           },
           {
             "placeName": "Nizwa Kalesi",
             "description": "Tarihi kale ve Cuma günleri kurulan canlı keçi pazarı.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Nizwa_Fort_in_Oman.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.c6FAk_G8KXaJwGkylA6vbgHaEK&pid=Api"
           }
         ],
         "importantNumbers": {
@@ -2476,24 +2510,26 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming mevcut, ancak pahalı. Yerel SIM alınabilir veya eSIM seçenekleri var."
         },
         "famousDishes": [
-          {
-            "name": "Shuwa (gömlekte pişen et yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Omani_Shura.jpg"
-          },
-          {
-            "name": "Majboos (etli pilav)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Kabsa_chicken_Saudi.jpg"
-          },
-          {
-            "name": "Halwa (Oman helvası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Omani_Halwa.jpg"
-          },
-          {
-            "name": "Mashuai (ızgara kral balığı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Grilled_Fish_OMR.jpg"
-          }
-        ]
+    {
+      "name": "Shuwa (gömlekte pişen et yemeği)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.0XMoG0khL5he-HPva0POeAHaLJ&pid=Api"
+    },
+    {
+      "name": "Majboos (etli pilav)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.n0bJy8BaTZV1N7ieb3QMpgHaFj&pid=Api"
+    },
+    {
+      "name": "Halwa (Oman helvası)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.5VW1vRUFE7NMQYVw6ShNhQHaHa&pid=Api"
+    },
+    {
+      "name": "Mashuai (ızgara kral balığı)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.SI5ItR5ZfP5JA0FI21qZCwHaFj&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 34,
         "countryName": "Filistin Bölgeleri",
@@ -2516,22 +2552,22 @@ export class CountryService {
           {
             "placeName": "Kudüs Eski Şehir (Doğu Kudüs)",
             "description": "Tarihi surlar, kutsal mekânlar ve geleneksel pazarlar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Jerusalem_from_mt_olives.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.LLAcvorfJxKOsIt0Cniq3AAAAA&pid=Api"
           },
           {
             "placeName": "Betlehem – Doğuş Kilisesi",
             "description": "Hz. İsa'nın doğum yeri olduğuna inanılan tarihi kilise.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/The_Church_of_the_Nativity_%28Bethlehem%29.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.tVbxjLy0_cB3gb6l2AuQxgHaE7&pid=Api"
           },
           {
             "placeName": "El-Halil (Hebron) – İbrahim Camii",
             "description": "Hz. İbrahim'in türbesi, Müslümanlar ve Yahudiler için kutsal mekân.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ibrahimi_Mosque_Hebron.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.MTEY5tZ115kOrxPxLjMj2gHaEK&pid=Api"
           },
           {
             "placeName": "Ramallah",
             "description": "Filistin'in kültürel ve ekonomik merkezlerinden biri, modern kafe ve restoranlar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ramallah_view_2011.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.OxqXHzwpGpysSMz65SzKIQHaFj&pid=Api"
           }
         ],
         "importantNumbers": {
@@ -2551,24 +2587,27 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming genelde İsrail şebekesi üzerinden sağlanır. Filistin SIM kartları daha ekonomik olabilir."
         },
         "famousDishes": [
-          {
-            "name": "Maklube",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/MaqlubaPalestinianDish.jpg"
-          },
-          {
-            "name": "Musakhan (tavuk ve soğanlı ekmek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Musakhan_Palestine.jpg"
-          },
-          {
-            "name": "Falafel",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Falafel_Israel.jpg"
-          },
-          {
-            "name": "Kanafeh (peynir tatlısı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Palestinian_Knafeh.jpg"
-          }
-        ]
-      },
+    {
+      "name": "Maklube",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.g7AQYeYHwSkNJlbihpkvrgHaEK&pid=Api"
+    },
+    {
+      "name": "Musakhan (tavuk ve soğanlı ekmek)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.opwtSfkAasR2AUclqufkBwHaHa&pid=Api"
+    },
+    {
+      "name": "Falafel",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.8jDiY1OnNRJvL7LZrzbNUQHaLH&pid=Api"
+    },
+    {
+      "name": "Kanafeh (peynir tatlısı)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.s7X0J67-f61Z1auuJjrRwgHaE7&pid=Api"
+    }
+  ]
+      }
+      ,
+
+
       {
         "id": 35,
         "countryName": "Panama",
@@ -2577,7 +2616,7 @@ export class CountryService {
           "code": "USD",
           "name": "United States Dollar",
           "symbol": "$",
-          "rate": 28.5
+          "rate": 34
         },
         "languages": ["İspanyolca", "İngilizce"],
         "visaType": "Vize Gerekmiyor",
@@ -2588,27 +2627,27 @@ export class CountryService {
           "symbol": "Şehrin armasında Panama Kanalı ve gemi sembolü"
         },
         "touristicPlaces": [
-          {
-            "placeName": "Panama Kanalı – Miraflores Locks",
-            "description": "Dünyanın mühendislik harikası kanal sistemi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Miraflores_Locks.jpg"
-          },
-          {
-            "placeName": "Casco Viejo",
-            "description": "Tarihi şehir merkezi, kolonyal binalar ve renkli sokaklar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Casco_Viejo_-_Panama_City.jpg"
-          },
-          {
-            "placeName": "Bocas del Toro",
-            "description": "Karayip Denizi'nde mercan resifleri, dalış ve plaj keyfi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Bocas_Del_Toro_Islas.jpg"
-          },
-          {
-            "placeName": "San Blas Adaları (Guna Yala)",
-            "description": "Guna Yerlilerinin yönettiği ıssız tropik adalar topluluğu.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/San_Blas_Islands_-_Kuna_Yala_Region.jpg"
-          }
-        ],
+    {
+      "placeName": "Panama Kanalı – Miraflores Locks",
+      "description": "Dünyanın mühendislik harikası kanal sistemi.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.RDLZS7zgqyz2vycxTaabXQHaFj&pid=Api"
+    },
+    {
+      "placeName": "Casco Viejo",
+      "description": "Tarihi şehir merkezi, kolonyal binalar ve renkli sokaklar.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.W0eWIBZZeaaWCdMJI1NiaQHaE8&pid=Api"
+    },
+    {
+      "placeName": "Bocas del Toro",
+      "description": "Karayip Denizi'nde mercan resifleri, dalış ve plaj keyfi.",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.SGYwmGY1di9c9Na3N4RWPQHaE2&pid=Api"
+    },
+    {
+      "placeName": "San Blas Adaları (Guna Yala)",
+      "description": "Guna Yerlilerinin yönettiği ıssız tropik adalar topluluğu.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.Ji9pMmRLTKNQuimEjXEl-wAAAA&pid=Api"
+    }
+  ],
         "importantNumbers": {
           "police": "104",
           "ambulance": "911",
@@ -2626,25 +2665,27 @@ export class CountryService {
           ],
           "turkishProvidersUsage": "Roaming kullanılabilir, ancak yerel hat almayı düşünebilirsiniz."
         },
-        "famousDishes": [
-          {
-            "name": "Sancocho de Gallina (tavuk çorbası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Sancocho_de_gallina_panama.jpg"
-          },
-          {
-            "name": "Ropa Vieja (didiklenmiş et yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Ropa_vieja_Miami.jpg"
-          },
-          {
-            "name": "Patacones (kızarmış muz dilimleri)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Tostones_%28Patacones%29.jpg"
-          },
-          {
-            "name": "Ceviche (limonlu deniz ürünleri)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Ceviche_in_Panama.jpg"
-          }
-        ]
+       "famousDishes": [
+    {
+      "name": "Sancocho de Gallina (tavuk çorbası)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.AhrwnV_057QrWfA4hIT9lwHaEK&pid=Api"
+    },
+    {
+      "name": "Ropa Vieja (didiklenmiş et yemeği)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.LCep37HFahDujrssNzpZuAHaE8&pid=Api"
+    },
+    {
+      "name": "Patacones (kızarmış muz dilimleri)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.YALgM-TmJq_iIowh4AEg5AHaGL&pid=Api"
+    },
+    {
+      "name": "Ceviche (limonlu deniz ürünleri)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.sdJShXwpvgUSDPh5PHwXNAHaE6&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 36,
         "countryName": "Paraguay",
@@ -2663,28 +2704,28 @@ export class CountryService {
           "name": "Asunción",
           "symbol": "Kentin armasında palmiye ağacı ve yıldız sembolü"
         },
-        "touristicPlaces": [
-          {
-            "placeName": "Asunción Tarihi Merkez",
-            "description": "Kolonyal binalar, Palacio de López ve Ulusal Kahramanlar Panteonu.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Palacio_de_l%C3%B3pez_de_noche.jpg"
-          },
-          {
-            "placeName": "Itaipú Barajı",
-            "description": "Dünyanın en büyük hidroelektrik barajlarından biri, Paraguay-Brezilya sınırında.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/ItaipuAerea2AAL.jpg"
-          },
-          {
-            "placeName": "Jesuit Misyonları (Trinidad ve Jesús)",
-            "description": "UNESCO Dünya Mirası yerleri, tarihi misyon kalıntıları.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Jose_de_trinidad.jpg"
-          },
-          {
-            "placeName": "Encarnación",
-            "description": "Karadeniz tipi plajlarıyla da bilinen turistik kıyı kenti.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Encarnaci%C3%B3n_Beach_Paraguay.jpg"
-          }
-        ],
+       "touristicPlaces": [
+    {
+      "placeName": "Asunción Tarihi Merkez",
+      "description": "Kolonyal binalar, Palacio de López ve Ulusal Kahramanlar Panteonu.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.RDLZS7zgqyz2vycxTaabXQHaFj&pid=Api"
+    },
+    {
+      "placeName": "Itaipú Barajı",
+      "description": "Dünyanın en büyük hidroelektrik barajlarından biri, Paraguay-Brezilya sınırında.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.Ji9pMmRLTKNQuimEjXEl-wAAAA&pid=Api"
+    },
+    {
+      "placeName": "Jesuit Misyonları (Trinidad ve Jesús)",
+      "description": "UNESCO Dünya Mirası yerleri, tarihi misyon kalıntıları.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.SGYwmGY1di9c9Na3N4RWPQHaE2&pid=Api"
+    },
+    {
+      "placeName": "Encarnación",
+      "description": "Karadeniz tipi plajlarıyla da bilinen turistik kıyı kenti.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.W0eWIBZZeaaWCdMJI1NiaQHaE8&pid=Api"
+    }
+  ],
         "importantNumbers": {
           "police": "911",
           "ambulance": "141",
@@ -2703,24 +2744,26 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming yapılabilir, maliyetli olabileceğinden yerel SIM'i düşünün."
         },
         "famousDishes": [
-          {
-            "name": "Chipa (peynirli ekmek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Chipa_Paraguay.jpg"
-          },
-          {
-            "name": "Sopa Paraguaya (katı mısır ekmeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Sopa_Paraguaya.png"
-          },
-          {
-            "name": "Mandioca (yerel manyok)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cassava.jpg"
-          },
-          {
-            "name": "Bori Bori (topçuklu çorba)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Boribori_Sopa_Paraguay.jpg"
-          }
-        ]
+    {
+      "name": "Chipa (peynirli ekmek)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.AaPsULi6tkOiEgyIR5aOXgHaEK&pid=Api"
+    },
+    {
+      "name": "Sopa Paraguaya (katı mısır ekmeği)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.GZU-lyj_vTKKv8Vd2foyxAHaE6&pid=Api"
+    },
+    {
+      "name": "Mandioca (yerel manyok)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.B9BNd6GtJx7Gl2V_zdYC_gHaJB&pid=Api"
+    },
+    {
+      "name": "Bori Bori (topçuklu çorba)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.1F8R-N6uZt_BjcM9JHJnzQHaE8&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 37,
         "countryName": "Katar",
@@ -2740,27 +2783,23 @@ export class CountryService {
           "symbol": "Doha silüetinde gökdelenler ve yelkenli (dhow) botu sembolü"
         },
         "touristicPlaces": [
-          {
-            "placeName": "Souq Waqif",
-            "description": "Geleneksel pazar yeri, baharatlar, kıyafetler ve yerel restoranlar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Souq_Waqif_Street%2C_Doha.jpg"
-          },
-          {
-            "placeName": "İslami Sanat Müzesi",
-            "description": "Dünyaca ünlü mimar IM Pei tarafından tasarlanan müze.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Islamic_Art_Museum_in_Doha.jpg"
-          },
-          {
-            "placeName": "The Pearl-Qatar",
-            "description": "Lüks yapay ada, alışveriş ve marina alanı.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Pearl_Qatar_Doha.jpg"
-          },
-          {
-            "placeName": "Katara Kültür Köyü",
-            "description": "Sanat galerileri, tiyatrolar ve restoranların bulunduğu kültür merkezi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Katara_Cultural_Village_Buildings_in_Doha.jpg"
-          }
-        ],
+    {
+      "placeName": "İslami Sanat Müzesi",
+      "description": "Dünyaca ünlü mimar IM Pei tarafından tasarlanan müze.",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.00lXXVU58kPcDT-lgs6EuwHaE9&pid=Api"
+    },
+    {
+      "placeName": "The Pearl-Qatar",
+      "description": "Lüks yapay ada, alışveriş ve marina alanı.",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.EV9D5Jx285nklM5dDbfviwHaFs&pid=Api"
+    },
+    {
+      "placeName": "Katara Kültür Köyü",
+      "description": "Sanat galerileri, tiyatrolar ve restoranların bulunduğu kültür merkezi.",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.KKSicies-tyjs8kDdFg4mgHaE7&pid=Api"
+    }
+  ]
+        ,
         "importantNumbers": {
           "police": "999",
           "ambulance": "999",
@@ -2779,22 +2818,24 @@ export class CountryService {
         "famousDishes": [
           {
             "name": "Machbous (baharatlı et veya balık pilavı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Kabsa_Saudi.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.QhKlw6JPcoh7Iq7v_rhezwHaHa&w=474&h=474&c=7"
           },
           {
             "name": "Harees (buğday ve et ezmesi)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Harees_dish.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.cAfelHUggZAirUr_Bc0nWAHaGG&w=390&h=390&c=7"
           },
           {
             "name": "Balaleet (şekerli erişte, omlet ile)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Balaleet.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.294qF8N5vnVPUbk4VY2tuQHaEK&w=266&h=266&c=7"
           },
           {
             "name": "Luqaimat (bal şerbetli tatlı topçuklar)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Luqaimat_dubai.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.jfZkG3H3fyNJLFjQOflFXQHaE8&w=316&h=316&c=7"
           }
         ]
       },
+
+
       {
         "id": 38,
         "countryName": "Sırbistan",
@@ -2817,22 +2858,22 @@ export class CountryService {
           {
             "placeName": "Kalemegdan",
             "description": "Tarihi kale ve park, Tuna ve Sava nehirlerinin birleştiği nokta.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Belgrade_Fortress_view_from_above.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.f-hfYbE-s3QJMU_TwFzIkAHaE8&w=316&h=316&c=7"
           },
           {
             "placeName": "Skadarlija",
             "description": "Bohem sokak, geleneksel restoranlar ve kafeler.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Skadarlija_street_Belgrade.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.Xf72C4-1S4X07A7Uha90dQHaHa&w=474&h=474&c=7"
           },
           {
             "placeName": "Novi Sad – Petrovaradin Kalesi",
             "description": "EXIT Müzik Festivali'nin düzenlendiği ünlü tarihi kale.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Petrovaradin_Citadel_Novi_Sad.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.VoQIWfh39j561a_3tyZkHgHaEK&w=266&h=266&c=7"
           },
           {
             "placeName": "Drvengrad (Mecavnik)",
             "description": "Emir Kusturica'nın inşa ettiği geleneksel ahşap köy, kırsal bölgelerde.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Kustendorf_Drvengrad.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.BxWZABI384KaMxOp4oYCGAHaFj&w=355&h=355&c=7"
           }
         ],
         "importantNumbers": {
@@ -2852,24 +2893,26 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming kullanılabilir, ancak yerel SIM paketleri daha ekonomik olabilir."
         },
         "famousDishes": [
-          {
-            "name": "Ćevapi (köfte benzeri et)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/%C4%86evap%C4%8Di%C4%87i.jpg"
-          },
-          {
-            "name": "Pljeskavica (Sırp köftesi)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Pljeskavica_%282%29.jpg"
-          },
-          {
-            "name": "Sarma (lahana sarması)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Sarma_Serbia_2.jpg"
-          },
-          {
-            "name": "Kaymak (kremsi süt ürünü)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Kajmak.jpg"
-          }
-        ]
+    {
+      "name": "Ćevapi (köfte benzeri et)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.VDB8T7BaDGRHSf97pTLkfwHaE8&pid=Api"
+    },
+    {
+      "name": "Pljeskavica (Sırp köftesi)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.0MS9fSa_WPdgpfNHNM8wTwHaE8&pid=Api"
+    },
+    {
+      "name": "Sarma (lahana sarması)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.fL4GxrR2VIIYaach3OyNpAHaFR&pid=Api"
+    },
+    {
+      "name": "Kaymak (kremsi süt ürünü)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.zXk1YjohSWzgknaYbytdEAHaHa&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 39,
         "countryName": "Singapur",
@@ -2888,28 +2931,28 @@ export class CountryService {
           "name": "Singapur Şehri-Devleti",
           "symbol": "Aslan balık heykeli (Merlion) kentin simgesi"
         },
-        "touristicPlaces": [
-          {
-            "placeName": "Marina Bay Sands",
-            "description": "Ünlü otel, gökdelen, gökyüzü havuzu ve alışveriş merkezi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Marina_Bay_Sands_in_Singapore_-_20101120.jpg"
-          },
-          {
-            "placeName": "Gardens by the Bay",
-            "description": "Dev ağaç heykelleri (Supertree Grove) ve çiçek kubbesi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Gardens_by_the_Bay%2C_Singapore_-_20120718-02.JPG"
-          },
-          {
-            "placeName": "Sentosa Adası",
-            "description": "Plajlar, Universal Studios ve eğlence merkezleri.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Beach_on_Sentosa_Singapore.jpg"
-          },
-          {
-            "placeName": "Chinatown & Little India",
-            "description": "Etnik mahallelerde yemek ve kültürel çeşitlilik.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Chinatown_Singapore_3%2C_Jan_06.JPG"
-          }
-        ],
+"touristicPlaces": [
+    {
+      "placeName": "Marina Bay Sands",
+      "description": "Ünlü otel, gökdelen, gökyüzü havuzu ve alışveriş merkezi.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.SUueW52avB5vGQpT9xrUcwHaEd&pid=Api"
+    },
+    {
+      "placeName": "Gardens by the Bay",
+      "description": "Dev ağaç heykelleri (Supertree Grove) ve çiçek kubbesi.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.ibKcYAoNb6P62JQrcRwr9gHaFj&pid=Api"
+    },
+    {
+      "placeName": "Sentosa Adası",
+      "description": "Plajlar, Universal Studios ve eğlence merkezleri.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.i2YQP3Bt2uECn0sZIfh2BAHaEf&pid=Api"
+    },
+    {
+      "placeName": "Chinatown & Little India",
+      "description": "Etnik mahallelerde yemek ve kültürel çeşitlilik.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.oARfLk5qeRi34xBY44C64gHaEL&pid=Api"
+    }
+  ],
         "importantNumbers": {
           "police": "999",
           "ambulance": "995",
@@ -2928,24 +2971,26 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming pahalı olabilir, yerel SIM veya turist eSIM'ler uygun fiyatlı."
         },
         "famousDishes": [
-          {
-            "name": "Hainanese Chicken Rice (tavuk ve pilav)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hainanese_Chicken_Rice_in_Singapore.jpg"
-          },
-          {
-            "name": "Chili Crab (biberli yengeç)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Chili_crab_Singapore.jpg"
-          },
-          {
-            "name": "Laksa (Hindistan cevizi sütlü erişte çorbası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Singapore_Laksa.jpg"
-          },
-          {
-            "name": "Satay (ızgara et şiş)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Satay_Singapore.jpg"
-          }
-        ]
+    {
+      "name": "Hainanese Chicken Rice (tavuk ve pilav)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.qpwyFVWk8JIP1atj8yi_XAHaFj&pid=Api"
+    },
+    {
+      "name": "Chili Crab (biberli yengeç)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.cAfelHUggZAirUr_Bc0nWAHaGG&pid=Api"
+    },
+    {
+      "name": "Laksa (Hindistan cevizi sütlü erişte çorbası)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.294qF8N5vnVPUbk4VY2tuQHaEK&pid=Api"
+    },
+    {
+      "name": "Satay (ızgara et şiş)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.jfZkG3H3fyNJLFjQOflFXQHaE8&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 40,
         "countryName": "Güney Afrika",
@@ -2971,22 +3016,22 @@ export class CountryService {
           {
             "placeName": "Cape Town – Table Mountain",
             "description": "Teleferikle çıkılabilen ikonik dağ ve panoramik manzara.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/View_from_Table_Mountain%2C_Cape_Town.jpg"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.OT2GBXH_UxeKrPlJkhdnYwHaE8&pid=Api"
           },
           {
             "placeName": "Kruger Ulusal Parkı",
             "description": "Büyük 5'li (aslan, fil, bufalo, leopar, gergedan) safari deneyimi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Kruger_Park_Landscape.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.BUcHk6qFyQ0LUkAokpgGKwHaE8&pid=Api"
           },
           {
             "placeName": "Johannesburg – Apartheid Müzesi",
             "description": "Güney Afrika'nın yakın tarihini anlatan önemli müze.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Apartheid_Museum_entrance.JPG"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.qoGGeT5Ey1fFOXYAWK7qBwHaEo&pid=Api"
           },
           {
             "placeName": "Garden Route",
             "description": "Muhteşem kıyı manzaraları, yürüyüş yolları ve küçük kasabalar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Garden_Route.jpg"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.xenKuWaeWMjt8et38qT1xgHaEJ&pid=Api"
           }
         ],
         "importantNumbers": {
@@ -3007,24 +3052,26 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming mevcut, ancak pahalı olabilir. Yerel SIM ile daha uygun internet erişimi sağlanabilir."
         },
         "famousDishes": [
-          {
-            "name": "Biltong (kurutulmuş et)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Biltong.jpg"
-          },
-          {
-            "name": "Bobotie (kıyma ve baharatlı fırın yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Bobotie.jpg"
-          },
-          {
-            "name": "Bunny Chow (ekmek içinde körili et veya sebze)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Bunny_Chow_Durban.jpg"
-          },
-          {
-            "name": "Pap ve Chakalaka (mısır lapası ve sebzeli sos)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Pap_and_chakalaka.jpg"
-          }
-        ]
+    {
+      "name": "Biltong (kurutulmuş et)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.ziv94qcgkA2z1OyiqcgrDAHaHa&pid=Api"
+    },
+    {
+      "name": "Bobotie (kıyma ve baharatlı fırın yemeği)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.Zhe0Jzinifl37H5mSu_DkwHaE7&pid=Api"
+    },
+    {
+      "name": "Bunny Chow (ekmek içinde körili et veya sebze)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.0sQoFy3RCcMkLCeUDYjZgwHaFc&pid=Api"
+    },
+    {
+      "name": "Pap ve Chakalaka (mısır lapası ve sebzeli sos)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.JJT7_9vKCLItQR5XCBZJtAHaLH&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 41,
         "countryName": "Güney Kore",
@@ -3044,27 +3091,27 @@ export class CountryService {
           "symbol": "Seul Kulesi (Namsan Kulesi) ve Han Nehri simgesi"
         },
         "touristicPlaces": [
-          {
-            "placeName": "Gyeongbokgung Sarayı",
-            "description": "Joseon Hanedanlığı döneminden kalma, en büyük saray komplekslerinden biri.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Gyeongbokgung_01.jpg"
-          },
-          {
-            "placeName": "Myeongdong",
-            "description": "Popüler alışveriş semti, Kore kozmetiği ve sokak yemeği cenneti.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Myeongdong_street_scenery_2018.jpg"
-          },
-          {
-            "placeName": "Busan – Haeundae Plajı",
-            "description": "Ülkenin en ünlü plajı, yaz turizminin gözdesi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Haeundae_Beach_in_Busan.jpg"
-          },
-          {
-            "placeName": "Jeju Adası",
-            "description": "Volkanik doğal güzellikler, plajlar ve Hallasan Dağı.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Jeju_Island_coastline.jpg"
-          }
-        ],
+    {
+      "placeName": "Gyeongbokgung Sarayı",
+      "description": "Joseon Hanedanlığı döneminden kalma, en büyük saray komplekslerinden biri.",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.5wQKUgvML-W_vOi78esA3AHaE7&pid=Api"
+    },
+    {
+      "placeName": "Myeongdong",
+      "description": "Popüler alışveriş semti, Kore kozmetiği ve sokak yemeği cenneti.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.U_2JswIAxZb8tdyoEU1pkAHaE7&pid=Api"
+    },
+    {
+      "placeName": "Busan – Haeundae Plajı",
+      "description": "Ülkenin en ünlü plajı, yaz turizminin gözdesi.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.7kJ-AWv6DkYk_CK5EEFTDQHaE8&pid=Api"
+    },
+    {
+      "placeName": "Jeju Adası",
+      "description": "Volkanik doğal güzellikler, plajlar ve Hallasan Dağı.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.ttoDN_NdDDEXazaRR9J4KwHaE9&pid=Api"
+    }
+  ],
         "importantNumbers": {
           "police": "112",
           "ambulance": "119",
@@ -3082,99 +3129,29 @@ export class CountryService {
           "turkishProvidersUsage": "K-ETA gerekli olabilir. Roaming fiyatları yüksek, yerel SIM veya Wi-Fi router kiralama popüler."
         },
         "famousDishes": [
-          {
-            "name": "Kimchi",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kimchi.jpg"
-          },
-          {
-            "name": "Bibimbap (karışık sebzeli pilav)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bibimbap_in_Jeonju.jpg"
-          },
-          {
-            "name": "Bulgogi (marineli et)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Bulgogi_kimchi.jpg"
-          },
-          {
-            "name": "Tteokbokki (acı biber soslu pirinç keki)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tteokbokki1.jpg"
-          }
-        ]
+    {
+      "name": "Kimchi",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.CdRnzy-FW8tEQTWrbUhL_QHaE8&pid=Api"
+    },
+    {
+      "name": "Bibimbap (karışık sebzeli pilav)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.XQIww0eJrl8VSqLyJUCWeAHaE8&pid=Api"
+    },
+    {
+      "name": "Bulgogi (marineli et)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.VuBttYZK5fmzHGeDoejD7QHaHa&pid=Api"
+    },
+    {
+      "name": "Tteokbokki (acı biber soslu pirinç keki)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.GmEmKX48df7Otjn1GofOdgHaHa&pid=Api"
+    }
+  ]
       },
-      {
-        "id": 42,
-        "countryName": "Sudan",
-        "flag": "🇸🇩",
-        "currency": {
-          "code": "SDG",
-          "name": "Sudanese Pound",
-          "symbol": "ج.س",
-          "rate": 0.018
-        },
-        "languages": ["Arapça", "İngilizce"],
-        "visaType": "Vize on Arrival",
-        "maxStay": "30 gün",
-        "notes": "Her zaman garanti değil; önceden vize daha güvenli olabilir.",
-        "capital": {
-          "name": "Hartum",
-          "symbol": "Nil Nehri birleşme noktası ve Antik Nubia sembolleri"
-        },
-        "touristicPlaces": [
-          {
-            "placeName": "Meroe Piramitleri",
-            "description": "Antik Kraliçe ve kral mezarları, Sudan'ın UNESCO mirası.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Meroe_pyramids2.jpg"
-          },
-          {
-            "placeName": "Hartum – Nil Nehirlerinin Birleştiği Yer",
-            "description": "Beyaz ve Mavi Nil'in birleştiği noktada şehrin sembolik manzarası.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Confluence_of_the_Blue_and_White_Nile.jpg"
-          },
-          {
-            "placeName": "Sufi Derviş Gösterileri (Omdurman)",
-            "description": "Cuma akşamları gerçekleşen renkli zikir törenleri.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Sufi_Worship_in_Sudan.jpg"
-          },
-          {
-            "placeName": "Nubian Çölü",
-            "description": "Bozulmamış çöl manzaraları ve yerel kabile kültürü.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Nubian_desert_Sudan.jpg"
-          }
-        ],
-        "importantNumbers": {
-          "police": "999",
-          "ambulance": "333",
-          "fire": "998",
-          "generalEmergency": "999"
-        },
-        "thingsToKnow": {
-          "warnings": "Siyasi istikrarsızlık ve çatışmalar olabilir, güncel uyarıları takip edin. Fotoğraf çekiminde izin almak önemli.",
-          "transportation": "Otobüs ve minibüs yaygın, ancak altyapı sınırlı. Şehirlerarası seyahat zorlu olabilir.",
-          "internetProviders": [
-            "Zain Sudan",
-            "MTN Sudan",
-            "Sudani"
-          ],
-          "turkishProvidersUsage": "Roaming sınırlı olabilir. Yerel SIM daha ucuz ve genelde daha güvenilir."
-        },
-        "famousDishes": [
-          {
-            "name": "Ful Medames (bakla yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Ful_medames.jpg"
-          },
-          {
-            "name": "Kisra (ince ekmek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Kisra_Sudan.jpg"
-          },
-          {
-            "name": "Asida (buğday veya darı lapası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Asida_Sudan.jpg"
-          },
-          {
-            "name": "Gurasa (kalın gözleme benzeri ekmek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Gurasa_Sudan.jpg"
-          }
-        ]
-      },
+
+
+      
+
+
       {
         "id": 43,
         "countryName": "Tayvan",
@@ -3193,28 +3170,28 @@ export class CountryService {
           "name": "Taipei",
           "symbol": "Taipei 101 gökdeleni"
         },
-        "touristicPlaces": [
-          {
-            "placeName": "Taipei 101",
-            "description": "Bir zamanlar dünyanın en yüksek binası, gözlem katı bulunur.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Taipei_101_2010.jpg"
-          },
-          {
-            "placeName": "Chiang Kai-shek Anıt Salonu",
-            "description": "Tarihi ve politik sembol, geniş bir meydan ve bahçeyle çevrili.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Chiang_kai-shek_memorial_amk.jpg"
-          },
-          {
-            "placeName": "Taroko Boğazı",
-            "description": "Mermer kanyonlar, dağ geçitleri ve nehirleriyle ünlü milli park.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Taroko_Gorge_Taiwan.jpg"
-          },
-          {
-            "placeName": "Sun Moon Lake",
-            "description": "Tayvan'ın en büyük gölü, bisiklet ve tekne turları için popüler.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sun_Moon_Lake.jpg"
-          }
-        ],
+       "touristicPlaces": [
+    {
+      "placeName": "Taipei 101",
+      "description": "Bir zamanlar dünyanın en yüksek binası, gözlem katı bulunur.",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.5wQKUgvML-W_vOi78esA3AHaE7&pid=Api"
+    },
+    {
+      "placeName": "Chiang Kai-shek Anıt Salonu",
+      "description": "Tarihi ve politik sembol, geniş bir meydan ve bahçeyle çevrili.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.U_2JswIAxZb8tdyoEU1pkAHaE7&pid=Api"
+    },
+    {
+      "placeName": "Taroko Boğazı",
+      "description": "Mermer kanyonlar, dağ geçitleri ve nehirleriyle ünlü milli park.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.7kJ-AWv6DkYk_CK5EEFTDQHaE8&pid=Api"
+    },
+    {
+      "placeName": "Sun Moon Lake",
+      "description": "Tayvan'ın en büyük gölü, bisiklet ve tekne turları için popüler.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.ttoDN_NdDDEXazaRR9J4KwHaE9&pid=Api"
+    }
+  ],
         "importantNumbers": {
           "police": "110",
           "ambulance": "119",
@@ -3231,25 +3208,31 @@ export class CountryService {
           ],
           "turkishProvidersUsage": "Roaming mümkün, ama pahalı olabilir. Turist SIM veya eSIM yaygın ve ucuz."
         },
-        "famousDishes": [
-          {
-            "name": "Beef Noodle Soup (etli erişte çorbası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Taiwan_beef_noodle_soup.jpg"
-          },
-          {
-            "name": "Xiao Long Bao (sulu Çin mantısı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Xiaolongbao_in_Taiwan.jpg"
-          },
-          {
-            "name": "Bubble Tea (köpüklü çay)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Tapioca_Bubble_Tea_%28cropped%29.jpg"
-          },
-          {
-            "name": "Oyster Omelet (istiridyeli omlet)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Taiwanese_oyster_omelet.jpg"
-          }
-        ]
+       "famousDishes": [
+    {
+      "name": "Beef Noodle Soup (etli erişte çorbası)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.IGzXTV6RuKThCo9LwZd5kwHaHa&pid=Api"
+    },
+    {
+      "name": "Xiao Long Bao (sulu Çin mantısı)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.Sy2yceQ-CzjGE5kgzTgdAQHaEK&pid=Api"
+    },
+    {
+      "name": "Gua Bao (yumuşak buharda pişirilmiş etli ekmek)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.ciZYdNuoxlkBx4b9YxXhrAHaLH&pid=Api"
+    },
+    {
+      "name": "Stinky Tofu (kokuşmuş tofu)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.BEhmkjMC5tO4D-o_OB220AHaE8&pid=Api"
+    },
+    {
+      "name": "Bubble Tea (köpüklü çay)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.vJQm4xWFXw9edsWl8NFBSgHaJ4&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 44,
         "countryName": "Tacikistan",
@@ -3269,28 +3252,28 @@ export class CountryService {
           "name": "Duşanbe",
           "symbol": "Duşanbe'nin bayrak direği ve ulusal semboller"
         },
-        "touristicPlaces": [
-          {
-            "placeName": "Pamir Dağları",
-            "description": "Dağcılık, trekking ve nefes kesici doğal güzellikler.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Pamir_Mountains_Bartang_Valley_Tajikistan.jpg"
-          },
-          {
-            "placeName": "Iskanderkul Gölü",
-            "description": "Efsanevi göl, dağ manzaralarıyla ünlü, kamp ve yürüyüş için ideal.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Iskanderkul_2018.jpg"
-          },
-          {
-            "placeName": "Duşanbe – Rudaki Caddesi",
-            "description": "Şehrin ana caddesi, parklar ve anıtlarla çevrili.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dushanbe_Rudaki_Street.jpg"
-          },
-          {
-            "placeName": "Hissar Kalesi",
-            "description": "Tarihi kale kalıntıları ve avlu.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Hissar_Fortress_Tajikistan.jpg"
-          }
-        ],
+       "touristicPlaces": [
+    {
+      "placeName": "Pamir Dağları",
+      "description": "Dağcılık, trekking ve nefes kesici doğal güzellikler.",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.tTLPaeISy06e98MZDLKHoQHaE5&pid=Api"
+    },
+    {
+      "placeName": "Iskanderkul Gölü",
+      "description": "Efsanevi göl, dağ manzaralarıyla ünlü, kamp ve yürüyüş için ideal.",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.SMJJbkthCkqBOKXbtlcyzAHaF7&pid=Api"
+    },
+    {
+      "placeName": "Duşanbe – Rudaki Caddesi",
+      "description": "Şehrin ana caddesi, parklar ve anıtlarla çevrili.",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.Ha_2hmf-oV2aMxWIcBk5gAHaFj&pid=Api"
+    },
+    {
+      "placeName": "Hissar Kalesi",
+      "description": "Tarihi kale kalıntıları ve avlu.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.Z6M0HqK1s4XaKx8rpLfOaQHaEK&pid=Api"
+    }
+  ],
         "importantNumbers": {
           "police": "02",
           "ambulance": "03",
@@ -3309,24 +3292,30 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming mevcut, ama sınırlı. Yerel SIM daha uygun fiyatlı olabilir."
         },
         "famousDishes": [
-          {
-            "name": "Plov (pilav ve et)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Plov_in_Tajikistan.jpg"
-          },
-          {
-            "name": "Qurutob (yoğurtlu ekmek salatası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Qurutob_Tajikistan.jpg"
-          },
-          {
-            "name": "Laghman (el açması erişte çorbası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Laghman_Tajikistan.jpg"
-          },
-          {
-            "name": "Shashlik (ızgara et şiş)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Shashlik_in_Dushanbe.jpg"
-          }
-        ]
+    {
+      "name": "Plov (pilav ve et)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.MZ_kQS6SLmf6v-QLLSHmlQHaHa&pid=Api"
+    },
+    {
+      "name": "Qurutob (yoğurtlu ekmek salatası)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.Rx1VU14bZd34ARlFdAOrigHaFQ&pid=Api"
+    },
+    {
+      "name": "Laghman (el açması erişte çorbası)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.6vncZixX8uYU9n_T3PR3UgHaE8&pid=Api"
+    },
+    {
+      "name": "Shashlik (ızgara et şiş)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.SWy2LWYVgxdhIFnGug8CJQHaE7&pid=Api"
+    },
+    {
+      "name": "Helva",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.V-pYxb25h1HjY0i_CK78mwHaEK&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 45,
         "countryName": "Tayland",
@@ -3346,27 +3335,27 @@ export class CountryService {
           "symbol": "Tayland'ın fil sembolü ve Wat Arun silueti"
         },
         "touristicPlaces": [
-          {
-            "placeName": "Bangkok – Grand Palace",
-            "description": "Tarihi saray ve Zümrüt Buda Tapınağı ile ünlü kompleks.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Grand_Palace_Bangkok.jpg"
-          },
-          {
-            "placeName": "Phuket",
-            "description": "Plajlar, gece hayatı ve ada turlarıyla ünlü turizm merkezi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Patong_Beach_Phuket.jpg"
-          },
-          {
-            "placeName": "Chiang Mai",
-            "description": "Dağ tapınakları, fil kampları ve geleneksel pazarlar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Wat_Phra_That_Doi_Suthep_01.jpg"
-          },
-          {
-            "placeName": "Ayutthaya Tarihi Parkı",
-            "description": "UNESCO Mirası, antik tapınak kalıntıları ve saraylar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Wat_Chaiwatthanaram_Ayutthaya.jpg"
-          }
-        ],
+    {
+      "placeName": "Bangkok – Grand Palace",
+      "description": "Tarihi saray ve Zümrüt Buda Tapınağı ile ünlü kompleks.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.7O876Qe8wCYoiOcY1CB92AHaE8&pid=Api"
+    },
+    {
+      "placeName": "Phuket",
+      "description": "Plajlar, gece hayatı ve ada turlarıyla ünlü turizm merkezi.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.VR_N-Kb332mH9G5RmqbcXgHaE8&pid=Api"
+    },
+    {
+      "placeName": "Chiang Mai",
+      "description": "Dağ tapınakları, fil kampları ve geleneksel pazarlar.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.Eu6uJaENmBBpUGNuk0qRugHaE-&pid=Api"
+    },
+    {
+      "placeName": "Ayutthaya Tarihi Parkı",
+      "description": "UNESCO Mirası, antik tapınak kalıntıları ve saraylar.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.acVu7AnuBDuyvdq59iErBgHaFj&pid=Api"
+    }
+  ],
         "importantNumbers": {
           "police": "191",
           "ambulance": "1669",
@@ -3386,22 +3375,28 @@ export class CountryService {
         "famousDishes": [
           {
             "name": "Pad Thai (erişte yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Pad_Thai_kung_Chang_Khao.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.Gy061FuHUwxhzEt_W54xrgHaLH&pid=Api"
           },
           {
             "name": "Tom Yum Soup (acı-ekşi çorba)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Tom_yum_kung_mae_nam.jpg"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.PBnIvvr9K6mM8NbXsfqD3gHaKX&pid=Api"
           },
           {
-            "name": "Green/Red Curry (köri yemekleri)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Thai_green_curry_chicken.jpg"
+            "name": "Green Curry (köri yemekleri)",
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.kVklKgRjhATw1cq4U4d5EgHaHh&pid=Api"
+          },
+          {
+            "name": "Red Curry (köri yemekleri)",
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.Ac18SAQyC_keIwcX0EsynAHaE9&pid=Api"
           },
           {
             "name": "Mango Sticky Rice (tatlı pirinç ve mango)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Mango_sticky_rice.JPG"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.hISlHZYtpBtLDqzAxSv9vwHaJ4&pid=Api"
           }
         ]
       },
+
+
       {
         "id": 46,
         "countryName": "Tunus",
@@ -3424,22 +3419,22 @@ export class CountryService {
           {
             "placeName": "Kartaca Antik Kenti",
             "description": "Fenike ve Roma kalıntılarıyla ünlü tarihi bölge.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Carthage_Amphitheatre.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.cbIWHgVG-6e_ECwPFDgeDAHaEo&pid=Api"
           },
           {
             "placeName": "Sidi Bou Said",
             "description": "Mavi-beyaz boyalı evleriyle turistik sahil kasabası.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Sidi_Bou_Said_View.jpg"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.sp01MBBx3LL9n_gsuKuSIQHaEK&pid=Api"
           },
           {
             "placeName": "Bardo Müzesi",
             "description": "Zengin Roma mozaik koleksiyonuyla bilinen ulusal müze.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Bardo_museum_tunis.JPG"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.QRDX0kMBJwbl-CklmwNsGQHaE8&pid=Api"
           },
           {
             "placeName": "Sahara Çölü – Douz",
             "description": "Çöl safarisi ve geleneksel Berberi kültürü deneyimi.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Douz_sahara.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.sCEBc9O1kQmTxFP74ice5QHaE8&pid=Api"
           }
         ],
         "importantNumbers": {
@@ -3459,24 +3454,26 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming mümkün, ancak pahalı. Yerel SIM kart ile daha uygun internet paketleri edinilebilir."
         },
         "famousDishes": [
-          {
-            "name": "Couscous (sebzeli veya etli)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/CouscousTunisia.jpg"
-          },
-          {
-            "name": "Brik (yumurtalı ve ton balıklı börek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Bric.jpg"
-          },
-          {
-            "name": "Shakshuka (domates ve biberli yumurta yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Shakshouka_Tunisian.jpg"
-          },
-          {
-            "name": "Harissa (acı biber ezmesi)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Harissa_paste.jpg"
-          }
-        ]
+    {
+      "name": "Couscous (sebzeli veya etli)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.9sWkf0nFGdYggwDRzogQCQHaE8&pid=Api"
+    },
+    {
+      "name": "Brik (yumurtalı ve ton balıklı börek)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.cyKwZ9w6cijix0zB9qA37wHaFj&pid=Api"
+    },
+    {
+      "name": "Shakshuka (domates ve biberli yumurta yemeği)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.jDX2ZAJ_mhhzJK2N3zEAcgHaFj&pid=Api"
+    },
+    {
+      "name": "Harissa (acı biber ezmesi)",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.6XYbR0r8Gu8mMMXmqOGI4gHaLH&pid=Api"
+    }
+  ]
       },
+
+
       {
         "id": 47,
         "countryName": "Ukrayna",
@@ -3487,36 +3484,36 @@ export class CountryService {
           "symbol": "₴",
           "rate": 0.85
         },
-        "languages": ["Ukraynaca", "Rusça"],
+        "languages": ["Ukraynaca"],
         "visaType": "Vize Gerekmiyor",
         "maxStay": "90 gün",
         "notes": "180 günlük süre içinde 90 gün. Son durumu güncel koşullara göre takip edin.",
         "capital": {
-          "name": "Kiev (Kyiv)",
+          "name": "Kyiv",
           "symbol": "Kiev Pechersk Lavra (Altın Kubbeli Manastır) ve Altın Kapı sembolleri"
         },
         "touristicPlaces": [
-          {
-            "placeName": "Kiev – Kreschatik Caddesi ve Bağımsızlık Meydanı",
-            "description": "Şehrin kalbi, Maidan olarak bilinen tarihi meydan.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Independence_Square_in_Kiev.jpg"
-          },
-          {
-            "placeName": "Lviv Eski Şehir",
-            "description": "UNESCO Mirası, Avrupa mimarisi ve kafe kültürüyle ünlü.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Lviv_old_town_Rynok_Square.jpg"
-          },
-          {
-            "placeName": "Odessa",
-            "description": "Karadeniz kıyısında ünlü liman kenti, Potemkin Merdivenleri.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Odessa_Port.jpg"
-          },
-          {
-            "placeName": "Çernobil Turu",
-            "description": "Terk edilmiş Pripyat kenti ve rehberli nükleer felaket bölgesi gezileri.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Pripyat_Sign.jpg"
-          }
-        ],
+    {
+      "placeName": "Kiev – Kreschatik Caddesi ve Bağımsızlık Meydanı",
+      "description": "Şehrin kalbi, Maidan olarak bilinen tarihi meydan.",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.l3z7MEBebZHVph4XMcoHAAHaE7&pid=Api"
+    },
+    {
+      "placeName": "Lviv Eski Şehir",
+      "description": "UNESCO Mirası, Avrupa mimarisi ve kafe kültürüyle ünlü.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.cs72nj5MBU2GpPDLwcu6GAHaE8&pid=Api"
+    },
+    {
+      "placeName": "Odessa – Potemkin Merdivenleri",
+      "description": "Karadeniz kıyısında ünlü liman kenti, Potemkin Merdivenleri.",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.Y68oMBNFG6j6pXRGypuJtQHaE8&pid=Api"
+    },
+    {
+      "placeName": "Çernobil Turu – Pripyat Kenti",
+      "description": "Terk edilmiş Pripyat kenti ve rehberli nükleer felaket bölgesi gezileri.",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.Jfe1NAlgRhmTbjoDIpFr4gHaEK&pid=Api"
+    }
+  ],
         "importantNumbers": {
           "police": "102",
           "ambulance": "103",
@@ -3534,24 +3531,24 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming genellikle aktif. Yerel SIM verileri daha ucuz sağlayabilir."
         },
         "famousDishes": [
-          {
-            "name": "Borsch (pancar çorbası)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Borsch_ukrainian.jpg"
-          },
-          {
-            "name": "Varenyky (mantı benzeri hamur)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Varenyky_with_sour_cream.jpg"
-          },
-          {
-            "name": "Chicken Kiev (tereyağlı tavuk rulosu)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Chicken_Kiev_Served.jpg"
-          },
-          {
-            "name": "Salo (tuzlanmış domuz yağı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Salo_with_bread_and_onion.jpg"
-          }
-        ]
+    {
+      "name": "Borsch (pancar çorbası)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.W2QkLRLSqBJUQfub7EiBuQHaLH&pid=Api"
+    },
+    {
+      "name": "Varenyky (mantı benzeri hamur)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.Sv8KfZ8OoFd6PNAmtqNEkgHaGL&pid=Api"
+    },
+    {
+      "name": "Chicken Kyiv (tereyağlı tavuk rulosu)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.ypFECjqz29Aqp08p4H_t1QHaHa&pid=Api"
+    }
+  ]
+          
+        
       },
+
+
       {
         "id": 48,
         "countryName": "Uruguay",
@@ -3574,22 +3571,22 @@ export class CountryService {
           {
             "placeName": "Ciudad Vieja (Eski Şehir)",
             "description": "Kolonyal mimari, restoranlar ve tarihi binalar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ciudad_Vieja_in_Montevideo.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.LtDE8ZGB5IRkTCWDNwNd5wHaJ4&pid=Api"
           },
           {
             "placeName": "Pocitos Plajı",
             "description": "Montevideo şehir içinde kumsal keyfi, yürüyüş yolları.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Playa_Pocitos.JPG"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.hqHUBlUibImEJQ_UF_WjnQHaEp&pid=Api"
           },
           {
             "placeName": "Punta del Este",
             "description": "Lüks tatil beldesi, plajlar ve gece hayatı.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Punta_del_Este_Beach.jpg"
+            "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.nXRLbOBghhmlZJ5BwlG35gHaE7&pid=Api"
           },
           {
             "placeName": "Colonia del Sacramento",
             "description": "Portekiz kolonyal geçmişi, Arnavutkaldırım sokaklarıyla UNESCO Dünya Mirası.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Colonia_del_Sacramento%2C_Uruguay.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.Dpag0gbGxKc4cFBH3IodWAHaE8&pid=Api"
           }
         ],
         "importantNumbers": {
@@ -3611,22 +3608,16 @@ export class CountryService {
         "famousDishes": [
           {
             "name": "Asado (mangalda et)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Asado_sur.jpg"
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.4HLh2j_kBJthNFh1P_kisgHaE7&pid=Api"
           },
           {
             "name": "Chivito (etli sandviç)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Chivito_uruguayo.jpg"
-          },
-          {
-            "name": "Mate (bitki çayı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mate_in_uruguay.jpg"
-          },
-          {
-            "name": "Tortas Fritas (kızarmış hamur)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tortas_fritas_Uruguay.jpg"
+            "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.0d-lUElmNLmFpQiLJndbbAHaFj&pid=Api"
           }
         ]
       },
+
+
       {
         "id": 49,
         "countryName": "Özbekistan",
@@ -3647,24 +3638,24 @@ export class CountryService {
         },
         "touristicPlaces": [
           {
-            "placeName": "Semerkant – Registan Meydanı",
+            "placeName": "Semerkand – Registan Meydanı",
             "description": "İslam mimarisinin zirvesi kabul edilen medreseler.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Registon_Samarqand.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.bkXnF0F1E-Lwwf8CdYkX5wHaE7&pid=Api"
           },
           {
             "placeName": "Buhara Eski Şehir",
             "description": "UNESCO Mirası, tarihi camiler, türbeler ve çarşılar.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bukhara_Poi_Kalon_Complex.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.qK5ZST-vFk7gMFd9kEswpgHaEo&pid=Api"
           },
           {
             "placeName": "Hiva (Khiva) – İçan Kale",
             "description": "Tamamen surlarla çevrili, zamana yolculuk hissi veren antik kent.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ichon_Qala_Khiva.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.-hBtUUts1VZodSVOZELj3AHaDt&pid=Api"
           },
           {
             "placeName": "Taşkent – Teleshayakh Kütüphanesi",
             "description": "Dünyanın en eski Kur'an nüshası olduğu düşünülen eserin sergilendiği yer.",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Hazrati_Imom_complex_in_Tashkent.jpg"
+            "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.kS_53OfkBAzR8AYgkJXlwQHaG2&pid=Api"
           }
         ],
         "importantNumbers": {
@@ -3685,23 +3676,23 @@ export class CountryService {
           "turkishProvidersUsage": "Roaming kullanılabilir. Yerel SIM kartlar data için uygun olabilir."
         },
         "famousDishes": [
-          {
-            "name": "Plov (Özbek pilavı)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Plov_Uzbekistan.jpg"
-          },
-          {
-            "name": "Shashlik (ızgara et şiş)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Shashlik_in_Samarkand_Uzbekistan.jpg"
-          },
-          {
-            "name": "Lagman (el açması erişte yemeği)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Lagman_Uzbekistan.jpg"
-          },
-          {
-            "name": "Samsa (fırında börek)",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Samsa_Uzbekistan.jpg"
-          }
-        ]
+    {
+      "name": "Plov (Özbek pilavı)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.FXesPxqEg2KcRMtIWxjcPAHaE7&pid=Api"
+    },
+    {
+      "name": "Shashlik (ızgara et şiş)",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.Dw_bgQHODmYQctRvx7ZZ-gHaHa&pid=Api"
+    },
+    {
+      "name": "Lagman (el açması erişte yemeği)",
+      "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.sJUL9pbrdaAO7CGOOuM11QHaLH&pid=Api"
+    },
+    {
+      "name": "Samsa (fırında börek)",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.52WePTZ_QBV2fnDW1RC6MgHaHa&pid=Api"
+    }
+  ]
       }
     
     
@@ -3747,7 +3738,7 @@ export class CountryService {
   }
 
   getCurrencyInfo(country: Country): string {
-    return `1 ${country.currency.code} = ${country.currency.rate.toFixed(2)} TL`;
+    return `1 ${country.currency.code} = ${country.currency.rate} TL`;
   }
 }
 
