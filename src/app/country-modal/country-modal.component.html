@@ -94,14 +94,19 @@
     </ion-item>
 
     <ion-card-content>
-      <ion-list>
-        <ion-item *ngFor="let place of country.touristicPlaces">
-          <ion-label>
-            <h3>{{ place.placeName }}</h3>
-            <p>{{ place.description }}</p>
-          </ion-label>
-        </ion-item>
-      </ion-list>
+      <ion-slides pager="true" [options]="{ slidesPerView: 1.5, spaceBetween: 10 }">
+        <ion-slide *ngFor="let place of country.touristicPlaces">
+          <ion-card>
+            <img [src]="place.imageUrl" alt="{{ place.placeName }}">
+            <ion-card-header>
+              <ion-card-title>{{ place.placeName }}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <p>{{ place.description }}</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
     </ion-card-content>
   </ion-card>
 
@@ -115,9 +120,16 @@
     </ion-item>
 
     <ion-card-content>
-      <ion-chip *ngFor="let dish of country.famousDishes" color="primary">
-        {{ dish }}
-      </ion-chip>
+      <ion-slides pager="true" [options]="{ slidesPerView: 1.5, spaceBetween: 10 }">
+        <ion-slide *ngFor="let dish of country.famousDishes">
+          <ion-card>
+            <img [src]="dish.imageUrl" alt="{{ dish.name }}">
+            <ion-card-header>
+              <ion-card-title>{{ dish.name }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
     </ion-card-content>
   </ion-card>
 
