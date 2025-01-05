@@ -20,8 +20,7 @@ export class CountryModalComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.fetchTouristImages();
-    this.fetchDishImages();
+    return;
   }
 
   dismiss() {
@@ -36,17 +35,6 @@ export class CountryModalComponent implements OnInit {
     return this.countryService.isFavorite(countryName);
   }
 
-  fetchTouristImages() {
-    const url = 'https://api.example.com/tourist-images'; // Replace with actual API endpoint
-    this.http.get<string[]>(url).subscribe(images => {
-      this.touristImages = images;
-    });
-  }
-
-  fetchDishImages() {
-    const url = 'https://api.example.com/dish-images'; // Replace with actual API endpoint
-    this.http.get<string[]>(url).subscribe(images => {
-      this.dishImages = images;
-    });
-  }
+ 
+  
 } 
