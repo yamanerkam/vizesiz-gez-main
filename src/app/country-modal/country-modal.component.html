@@ -114,57 +114,6 @@
       </ion-list>
     </ion-card-content>
   </ion-card>
-
-  <!-- Tourist Places -->
-  <ion-card>
-    <ion-item lines="none" color="light">
-      <ion-icon slot="start" name="location-outline" color="primary"></ion-icon>
-      <ion-label>
-        <h2>Turistik Yerler</h2>
-      </ion-label>
-    </ion-item>
-
-    <ion-card-content>
-      <ion-slides pager="true" [options]="{ slidesPerView: 1.5, spaceBetween: 10 }">
-        <ion-slide *ngFor="let place of country.touristicPlaces">
-          <ion-card>
-            <img [src]="place.imageUrl" alt="{{ place.placeName }}">
-            <ion-card-header>
-              <ion-card-title>{{ place.placeName }}</ion-card-title>
-            </ion-card-header>
-            <ion-card-content>
-              <p>{{ place.description }}</p>
-            </ion-card-content>
-          </ion-card>
-        </ion-slide>
-      </ion-slides>
-    </ion-card-content>
-  </ion-card>
-
-  <!-- Famous Dishes -->
-  <ion-card>
-    <ion-item lines="none" color="light">
-      <ion-icon slot="start" name="restaurant-outline" color="primary"></ion-icon>
-      <ion-label>
-        <h2>Meşhur Yemekler</h2>
-      </ion-label>
-    </ion-item>
-
-    <ion-card-content>
-      <ion-slides pager="true" [options]="{ slidesPerView: 1.5, spaceBetween: 10 }">
-        <ion-slide *ngFor="let dish of country.famousDishes">
-          <ion-card>
-            <img [src]="dish.imageUrl" alt="{{ dish.name }}">
-            <ion-card-header>
-              <ion-card-title>{{ dish.name }}</ion-card-title>
-            </ion-card-header>
-          </ion-card>
-        </ion-slide>
-      </ion-slides>
-    </ion-card-content>
-  </ion-card>
-
-  <!-- Important Information -->
   <ion-card>
     <ion-item lines="none" color="light">
       <ion-icon slot="start" name="information-circle-outline" color="primary"></ion-icon>
@@ -221,4 +170,55 @@
       </ion-item>
     </ion-card-content>
   </ion-card>
+  <!-- Tourist Places -->
+  <ion-card>
+    <ion-item lines="none" color="light">
+      <ion-icon slot="start" name="location-outline" color="primary"></ion-icon>
+      <ion-label>
+        <h2>Turistik Yerler</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      <ion-slides pager="true" [options]="{ slidesPerView: 1.5, spaceBetween: 10 }">
+        <ion-slide *ngFor="let place of country.touristicPlaces">
+          <ion-card>
+            <img [src]="place.imageUrl" alt="{{ place.placeName }}">
+            <ion-card-header>
+              <ion-card-title>{{ place.placeName }}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <p>{{ place.description }}</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Famous Dishes -->
+  <ion-card>
+    <ion-item lines="none" color="light">
+      <ion-icon slot="start" name="restaurant-outline" color="primary"></ion-icon>
+      <ion-label>
+        <h2>Meşhur Yemekler</h2>
+      </ion-label>
+    </ion-item>
+
+    <ion-card-content>
+      <ion-slides pager="true" [options]="{ slidesPerView: 1.5, spaceBetween: 10 }">
+        <ion-slide *ngFor="let dish of country.famousDishes">
+          <ion-card>
+            <img [src]="dish.imageUrl" alt="{{ dish.name }}">
+            <ion-card-header>
+              <ion-card-title>{{ dish.name }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Important Information -->
+ 
 </ion-content> 
